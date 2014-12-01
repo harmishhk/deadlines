@@ -7,14 +7,19 @@
     font-size: 14px;
 }
 
-.container-fluid {
+.listview {
     padding: 0 20%;
+    position:absolute;
+}
+
+.details {
+    padding: 20%;
+    position:absolute;
 }
 
 .entry-block{
     margin-top:20px;
     box-shadow:1px 1px 5px rgba(0,0,0,0.4);
-    transition:all 0.2s ease-out;
 }
 
 .countdown-row {
@@ -54,32 +59,84 @@
     padding-bottom: 5px;
 }
 
+.red-block {
+    background-color: orangered;
+}
+
+.red-block:hover {
+    background-color: red;
+    -webkit-transition: background-color 100ms linear;
+    -moz-transition: background-color 100ms linear;
+    -o-transition: background-color 100ms linear;
+    -ms-transition: background-color 100ms linear;
+    transition: background-color 100ms linear;
+}
+
+.yellow-block {
+    background-color: gold;
+}
+
+.yellow-block:hover {
+    background-color: yellow;
+    -webkit-transition: background-color 100ms linear;
+    -moz-transition: background-color 100ms linear;
+    -o-transition: background-color 100ms linear;
+    -ms-transition: background-color 100ms linear;
+    transition: background-color 100ms linear;
+}
+
+.blue-block {
+    background-color: deepskyblue;
+}
+
+.blue-block:hover {
+    background-color: blue;
+    -webkit-transition: background-color 100ms linear;
+    -moz-transition: background-color 100ms linear;
+    -o-transition: background-color 100ms linear;
+    -ms-transition: background-color 100ms linear;
+    transition: background-color 100ms linear;
+}
+
+.green-block {
+    background-color: darkgreen;
+}
+
+.green-block:hover {
+    background-color: green;
+    -webkit-transition: background-color 100ms linear;
+    -moz-transition: background-color 100ms linear;
+    -o-transition: background-color 100ms linear;
+    -ms-transition: background-color 100ms linear;
+    transition: background-color 100ms linear;
+}
+
 /* above things work on default size of 980px and up, for other we use media queries */
 
 /* large desktop */
 @media (min-width: 1200px) {
-    .container-fluid {
+    .listview {
         padding: 0 26%;
     }
 }
 
 /* portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
-    .container-fluid {
+    .listview {
         padding: 0 16%;
     }
 }
 
 /* landscape phone to portrait tablet */
 @media (max-width: 767px) {
-    .container-fluid {
+    .listview {
         padding: 0 10%;
     }
 }
 
 /* landscape phones and down */
 @media (max-width: 480px) {
-    .container-fluid {
+    .listview {
         padding: 0 4%;
     }
 }
