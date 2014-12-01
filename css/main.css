@@ -1,13 +1,57 @@
-p {
-    padding: 30px;
-    font-size: 32px;
+.title-name {
+    font-size: 30px;
     font-weight: bold;
-    text-align: center;
-    background: #f2f2f2;
+}
+
+.title-fullname {
+    font-size: 14px;
 }
 
 .container-fluid {
     padding: 0 20%;
+}
+
+.entry-block{
+    margin-top:20px;
+    box-shadow:1px 1px 5px rgba(0,0,0,0.4);
+    transition:all 0.2s ease-out;
+}
+
+.countdown-row {
+    display: block;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.countdown-section{
+    border-left: 1px dotted #dadada;
+    border-color: rgb(218,218,218);
+    border-color: rgba(218,218,218,0.8);
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin:10px 0 5px 0;
+    text-align: center;
+    text-transform: lowercase;
+    width: 25%;
+    -webkit-box-sizing:	border-box;
+    -moz-box-sizing:	border-box;
+    box-sizing:			border-box;
+}
+
+.countdown-section:first-child {
+    border-left: 0;
+}
+
+.countdown-amount {
+    color: #fff;
+    display: block;
+    font-size: 32px;
+    font-weight: 200;
+    letter-spacing: normal;
+    line-height: 1;
+    padding-bottom: 5px;
 }
 
 /* above things work on default size of 980px and up, for other we use media queries */
