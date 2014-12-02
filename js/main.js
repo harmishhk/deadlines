@@ -1,4 +1,15 @@
 $(document).ready(function(){
+    // var colors = ["#1abc9c","#3498db","#9b59b6","#f39c12", "#e74c3c", "#95a5a6"];
+    var colors = ["#E773BD","#CEA539","#94BD4A","#439D9A", "#6BA5E7", "#7F6E94", "#AA4379", "#AA4344", "#C27D4F", "#3A9548", "#306772", "#2C4566", "#423173", "#4C2C66", "#662C58", "#61292B", "#543A24"];
+    var rand = Math.floor(Math.random()*colors.length);
+    $('#entry1').css("background-color", colors[rand]);
+    rand = Math.floor(Math.random()*colors.length);
+    $('#entry2').css("background-color", colors[rand]);
+    rand = Math.floor(Math.random()*colors.length);
+    $('#entry3').css("background-color", colors[rand]);
+    rand = Math.floor(Math.random()*colors.length);
+    $('#entry4').css("background-color", colors[rand]);
+
     $(".entry-block").click(function(){
         $("#list").fadeOut();
         $("#details").fadeIn();

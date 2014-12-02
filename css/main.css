@@ -56,7 +56,6 @@ h3 {
     border-left: 1px dotted #dadada;
     border-color: rgb(218,218,218);
     border-color: rgba(218,218,218,0.8);
-    color: white;
     display: inline-block;
     font-size: 12px;
     letter-spacing: 1px;
@@ -74,7 +73,6 @@ h3 {
 }
 
 .countdown-amount {
-    color: #fff;
     display: block;
     font-size: 32px;
     font-weight: 200;
@@ -83,51 +81,8 @@ h3 {
     padding-bottom: 5px;
 }
 
-.red-block {
-    background-color: orangered;
-}
-
-.red-block:hover {
-    background-color: red;
-    -webkit-transition: background-color 100ms linear;
-    -moz-transition: background-color 100ms linear;
-    -o-transition: background-color 100ms linear;
-    -ms-transition: background-color 100ms linear;
-    transition: background-color 100ms linear;
-}
-
-.yellow-block {
-    background-color: gold;
-}
-
-.yellow-block:hover {
-    background-color: yellow;
-    -webkit-transition: background-color 100ms linear;
-    -moz-transition: background-color 100ms linear;
-    -o-transition: background-color 100ms linear;
-    -ms-transition: background-color 100ms linear;
-    transition: background-color 100ms linear;
-}
-
-.blue-block {
-    background-color: deepskyblue;
-}
-
-.blue-block:hover {
-    background-color: blue;
-    -webkit-transition: background-color 100ms linear;
-    -moz-transition: background-color 100ms linear;
-    -o-transition: background-color 100ms linear;
-    -ms-transition: background-color 100ms linear;
-    transition: background-color 100ms linear;
-}
-
-.green-block {
-    background-color: darkgreen;
-}
-
-.green-block:hover {
-    background-color: green;
+.entry-block:hover {
+    opacity: 0.7;
     -webkit-transition: background-color 100ms linear;
     -moz-transition: background-color 100ms linear;
     -o-transition: background-color 100ms linear;
