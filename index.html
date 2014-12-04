@@ -24,56 +24,7 @@
 <body>
     <div class="container-fluid">
         <section id="list">
-            <div class="container-fluid listview">
-
-                <div id="entry1" class="col-xs-12 entry-block">
-                    <div class="col-xs-12">
-                        <span class="title-name">HRI</span><br>
-                        <span class="title-fullname">Human Robot Interaction</span>
-                    </div>
-                    <div class="is-countdown" id="defaultCountdown">
-                        <span class="countdown-row">
-                            <span class="countdown-section"><span class="countdown-amount">23</span><span class="countdown-period">Days</span></span><span class="countdown-section"><span class="countdown-amount">3</span><span class="countdown-period">Hours</span></span><span class="countdown-section"><span class="countdown-amount">45</span><span class="countdown-period">Minutes</span></span><span class="countdown-section"><span class="countdown-amount">55</span><span class="countdown-period">Seconds</span></span>
-                        </span>
-                    </div>
-                </div>
-
-                <div id="entry2" class="col-xs-12 entry-block">
-                    <div class="col-xs-12">
-                        <span class="title-name">HRI</span><br>
-                        <span class="title-fullname">Human Robot Interaction</span>
-                    </div>
-                    <div class="is-countdown" id="defaultCountdown">
-                        <span class="countdown-row">
-                            <span class="countdown-section"><span class="countdown-amount">23</span><span class="countdown-period">Days</span></span><span class="countdown-section"><span class="countdown-amount">3</span><span class="countdown-period">Hours</span></span><span class="countdown-section"><span class="countdown-amount">45</span><span class="countdown-period">Minutes</span></span><span class="countdown-section"><span class="countdown-amount">55</span><span class="countdown-period">Seconds</span></span>
-                        </span>
-                    </div>
-                </div>
-
-                <div id="entry3" class="col-xs-12 entry-block">
-                    <div class="col-xs-12">
-                        <span class="title-name">HRI</span><br>
-                        <span class="title-fullname">Human Robot Interaction</span>
-                    </div>
-                    <div class="is-countdown" id="defaultCountdown">
-                        <span class="countdown-row">
-                            <span class="countdown-section"><span class="countdown-amount">23</span><span class="countdown-period">Days</span></span><span class="countdown-section"><span class="countdown-amount">3</span><span class="countdown-period">Hours</span></span><span class="countdown-section"><span class="countdown-amount">45</span><span class="countdown-period">Minutes</span></span><span class="countdown-section"><span class="countdown-amount">55</span><span class="countdown-period">Seconds</span></span>
-                        </span>
-                    </div>
-                </div>
-
-                <div id="entry4" class="col-xs-12 entry-block">
-                    <div class="col-xs-12">
-                        <span class="title-name">HRI</span><br>
-                        <span class="title-fullname">Human Robot Interaction</span>
-                    </div>
-                    <div class="is-countdown" id="defaultCountdown">
-                        <span class="countdown-row">
-                            <span class="countdown-section"><span class="countdown-amount">23</span><span class="countdown-period">Days</span></span><span class="countdown-section"><span class="countdown-amount">3</span><span class="countdown-period">Hours</span></span><span class="countdown-section"><span class="countdown-amount">45</span><span class="countdown-period">Minutes</span></span><span class="countdown-section"><span class="countdown-amount">55</span><span class="countdown-period">Seconds</span></span>
-                        </span>
-                    </div>
-                </div>
-            </div>
+            <div id="entryList" class="container-fluid listview"></div>
         </section>
 
         <section id="details" style="display:none;" >
@@ -96,6 +47,24 @@
     <!-- compiled and minified bootstrap js -->
     <script src="js/bootstrap.min.js"></script>
     <!-- compiled and minifies bootstrap plugins -->
+
+    <!-- jsrender for rendring json objects -->
+    <script src="js/jsrender.min.js"></script>
+
+    <!--  define the template for each entry in listview page -->
+    <script id="theTmpl" type="text/x-jsrender">
+    <div id="{{:entry_no}}" class="col-xs-12 entry-block">
+    <div class="col-xs-12">
+    <span class="title-name">{{:shorttitle}}</span><br>
+    <span class="title-fullname">{{:fulltitle}}</span>
+    </div>
+    <div class="is-countdown" id="defaultCountdown">
+    <span class="countdown-row">
+    <span class="countdown-section"><span class="countdown-amount">23</span><span class="countdown-period">Days</span></span><span class="countdown-section"><span class="countdown-amount">3</span><span class="countdown-period">Hours</span></span><span class="countdown-section"><span class="countdown-amount">45</span><span class="countdown-period">Minutes</span></span><span class="countdown-section"><span class="countdown-amount">55</span><span class="countdown-period">Seconds</span></span>
+    </span>
+    </div>
+    </div>
+    </script>
 
     <!-- custom js -->
     <script src="js/main.js"></script>
