@@ -2,9 +2,9 @@ $(document).ready(function(){
 
     // load the data from deadlines.json file
     $.getJSON('deadlines.json', function(entries) {
-        var template = $.templates("#theTmpl");
+        var template = $.templates("#entry-tmpl");
         var htmlOutput = template.render(entries);
-        $("#entryList").html(htmlOutput);
+        $("#entry-list").html(htmlOutput);
 
         // apply colors to different entries
         var colors = ["#E773BD","#CEA539","#94BD4A","#439D9A", "#6BA5E7", "#7F6E94", "#AA4379", "#AA4344", "#C27D4F", "#3A9548", "#306772", "#2C4566", "#423173", "#4C2C66", "#662C58", "#61292B", "#543A24"];
@@ -15,16 +15,16 @@ $(document).ready(function(){
 
         // trasit to detailed view when any entry is clicked
         $(".entry-block").click(function(){
-            $("#list").fadeOut();
-            $("#details").fadeIn();
+            $("#list-view").fadeOut();
+            $("#details-view").fadeIn();
             $('#fullpage-bg').css("background-image", "url(img/portland.jpg)");
             $('#fullpage-bg').css("background-size", "cover");
         });
 
         // transit back to list view when something is clicked on detailed view
-        $("#details").click(function(){
-            $("#details").fadeOut();
-            $("#list").fadeIn();
+        $("#details-view").click(function(){
+            $("#details-view").fadeOut();
+            $("#list-view").fadeIn();
         });
     });
 });

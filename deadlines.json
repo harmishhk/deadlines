@@ -3,33 +3,27 @@
         "entry_no": "entry1",
         "shorttitle": "HRI14",
         "fulltitle": "human robot interaction",
-        "deadline": {
-            "time": "",
-            "month": "January",
-            "day": 12,
-            "year": 2014
-        }
+        "time": "9:00",
+        "month": "January",
+        "day": 12,
+        "year": 2014
     },
     {
         "entry_no": "entry2",
         "shorttitle": "HRI15",
         "fulltitle": "human robot interaction",
-        "deadline": {
-            "time": "",
-            "month": "March",
-            "day": 12,
-            "year": 2015
-        }
+        "time": "9:00",
+        "month": "March",
+        "day": 12,
+        "year": 2015
     },
     {
         "entry_no": "entry3",
         "shorttitle": "HRI16",
         "fulltitle": "human robot interaction",
-        "deadline": {
-            "time": "",
-            "month": "January",
-            "day": 12,
-            "year": 2016
-        }
+        "time": "9:00",
+        "month": "January",
+        "day": 12,
+        "year": 2016
     }
 ]

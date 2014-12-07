@@ -22,22 +22,72 @@
     <![endif]-->
 </head>
 <body>
-    <div class="container-fluid">
-        <section id="list">
-            <div id="entryList" class="container-fluid listview"></div>
-        </section>
-
-        <section id="details" style="display:none;" >
-            <div id="fullpage-bg" class="container fullview">
-                <h1 id="shorttitle"></h1>
-                <h2 id="fulltitle"></h2>
-                <div id="days" class="timer-box"></div>
-                <div id="hours" class="timer-box"></div>
-                <div id="minutes" class="timer-box"></div>
-                <div id="seconds" class="timer-box"></div>
+    <section id="list-view">
+        <div id="entry-list" class="container container-sm-height">
+            <div id="entry1" class="row row-sm-height entry-block">
+                <div class="col-xs-12 col-sm-6 col-sm-height col-middle">
+                    <div class="content">
+                        <div class="list-shortname">Example 1</div>
+                        <div class="list-fullname">Example Journal</div>
+                        <div class="list-date">1 January, 2015</div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-sm-height col-middle">
+                    <div class="content">
+                        <div class="list-timer-section">
+                            <div class="list-timer-amount">11</div><div class="list-timer-period">Days</div>
+                        </div>
+                        <div class="list-timer-section">
+                            <div class="list-timer-amount">1</div><div class="list-timer-period">Hours</div>
+                        </div>
+                        <div class="list-timer-section">
+                            <div class="list-timer-amount">11</div><div class="list-timer-period">Minutes</div>
+                        </div>
+                        <div class="list-timer-section">
+                            <div class="list-timer-amount">1</div><div class="list-timer-period">Seconds</div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </section>
-    </div>
+            <div id="entry1" class="row row-sm-height entry-block">
+                <div class="col-xs-12 col-sm-6 col-sm-height col-middle">
+                    <div class="content">
+                        <div class="list-shortname">Example 2</div>
+                        <div class="list-fullname">Example Conference</div>
+                        <div class="list-date">11 February, 2015</div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-sm-height col-middle">
+                    <div class="content">
+                        <div class="list-timer-section">
+                            <div class="list-timer-amount">11</div><div class="list-timer-period">Days</div>
+                        </div>
+                        <div class="list-timer-section">
+                            <div class="list-timer-amount">22</div><div class="list-timer-period">Hours</div>
+                        </div>
+                        <div class="list-timer-section">
+                            <div class="list-timer-amount">33</div><div class="list-timer-period">Minutes</div>
+                        </div>
+                        <div class="list-timer-section">
+                            <div class="list-timer-amount">44</div><div class="list-timer-period">Seconds</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="details-view" style="display:none">
+        <div id="fullpage-bg" class="container fullview">
+            <h1 id="shorttitle"></h1>
+            <h2 id="fulltitle"></h2>
+            <div id="days" class="timer-box"></div>
+            <div id="hours" class="timer-box"></div>
+            <div id="minutes" class="timer-box"></div>
+            <div id="seconds" class="timer-box"></div>
+        </div>
+    </section>
+
 
     <!-- loading the scripts in the end -->
 
@@ -52,18 +102,33 @@
     <script src="js/jsrender.min.js"></script>
 
     <!--  define the template for each entry in listview page -->
-    <script id="theTmpl" type="text/x-jsrender">
-    <div id="{{:entry_no}}" class="col-xs-12 entry-block">
-    <div class="col-xs-12">
-    <span class="title-name">{{:shorttitle}}</span><br>
-    <span class="title-fullname">{{:fulltitle}}</span>
-    </div>
-    <div class="is-countdown" id="defaultCountdown">
-    <span class="countdown-row">
-    <span class="countdown-section"><span class="countdown-amount">23</span><span class="countdown-period">Days</span></span><span class="countdown-section"><span class="countdown-amount">3</span><span class="countdown-period">Hours</span></span><span class="countdown-section"><span class="countdown-amount">45</span><span class="countdown-period">Minutes</span></span><span class="countdown-section"><span class="countdown-amount">55</span><span class="countdown-period">Seconds</span></span>
-    </span>
+    <script id="entry-tmpl" type="text/x-jsrender">
+    <div id="{{:entry_no}}" class="row row-sm-height entry-block">
+    <div class="col-xs-12 col-sm-6 col-sm-height col-middle">
+    <div class="content">
+    <div class="list-shortname">{{:shorttitle}}</div>
+    <div class="list-fullname">{{:fulltitle}}</div>
+    <div class="list-date">{{:day}} {{:month}}, {{:year}}</div>
     </div>
     </div>
+    <div class="col-xs-12 col-sm-6 col-sm-height col-middle">
+    <div class="content">
+    <div class="list-timer-section">
+    <div class="list-timer-amount">23</div><div class="list-timer-period">Days</div>
+    </div>
+    <div class="list-timer-section">
+    <div class="list-timer-amount">3</div><div class="list-timer-period">Hours</div>
+    </div>
+    <div class="list-timer-section">
+    <div class="list-timer-amount">45</div><div class="list-timer-period">Minutes</div>
+    </div>
+    <div class="list-timer-section">
+    <div class="list-timer-amount">55</div><div class="list-timer-period">Seconds</div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="row row-sm-height"><br></div>
     </script>
 
     <!-- custom js -->

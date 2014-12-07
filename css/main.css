@@ -14,18 +14,63 @@ h3 {
     margin-bottom: 0;
 }
 
-.title-name {
-    font-size: 30px;
-    font-weight: bold;
+.listview {
+    padding: 0 20%;
+    position:relative;
 }
 
-.title-fullname {
+.col-middle {
+    vertical-align:middle;
+}
+
+.row {
+    margin: 0 4px 0;
+}
+
+.entry-block{
+    box-shadow:1px 1px 5px rgba(0,0,0,0.4);
+}
+
+.list-shortname {
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.list-fullname {
     font-size: 14px;
 }
 
-.listview {
-    padding: 0 20%;
-    position:absolute;
+.list-date {
+    font-size: 28px;
+    font-weight: 200;
+    padding: 0 0 5px;
+}
+
+.list-timer-section {
+    display: inline-block;
+    height: 100%;
+    width: 23%;
+    border-left: 1px dotted #dadada;
+    border-color: rgb(218,218,218);
+    border-color: rgba(218,218,218,0.8);
+    text-align: center;
+    letter-spacing: 1px;
+    vertical-align:middle;
+}
+
+.list-timer-section:first-child {
+    border-left: 0;
+}
+
+.list-timer-amount {
+    font-size: 28px;
+    font-weight: 200;
+    padding: 1px;
+}
+
+.list-timer-period {
+    font-size: 14px;
+    text-transform: lowercase;
 }
 
 .fullview {
@@ -39,46 +84,6 @@ h3 {
     position:absolute;
     z-index: 2;
     color: white;
-}
-
-.entry-block{
-    margin-top:20px;
-    box-shadow:1px 1px 5px rgba(0,0,0,0.4);
-}
-
-.countdown-row {
-    display: block;
-    text-align: center;
-    padding-bottom: 10px;
-}
-
-.countdown-section{
-    border-left: 1px dotted #dadada;
-    border-color: rgb(218,218,218);
-    border-color: rgba(218,218,218,0.8);
-    display: inline-block;
-    font-size: 12px;
-    letter-spacing: 1px;
-    margin:10px 0 5px 0;
-    text-align: center;
-    text-transform: lowercase;
-    width: 25%;
-    -webkit-box-sizing:	border-box;
-    -moz-box-sizing:	border-box;
-    box-sizing:			border-box;
-}
-
-.countdown-section:first-child {
-    border-left: 0;
-}
-
-.countdown-amount {
-    display: block;
-    font-size: 32px;
-    font-weight: 200;
-    letter-spacing: normal;
-    line-height: 1;
-    padding-bottom: 5px;
 }
 
 .entry-block:hover {
@@ -107,20 +112,58 @@ h3 {
     text-transform: lowercase;
 }
 
+/* content styles */
+.content {
+    width: 100%;
+    vertical-align:middle;
+    text-align:center;
+}
+
+/* centering styles for jsbin */
+html,
+body {
+    width:100%;
+}
+
 /* above things work on default size of 980px and up, for other we use media queries */
 
 /* large desktop */
 @media (min-width: 1200px) {
     .listview {
-        padding: 0 26%;
+        padding: 0 25%;
     }
 }
 
-/* portrait tablet to landscape and desktop */
-@media (min-width: 768px) and (max-width: 979px) {
+@media (min-width: 768px) {
+    .container-sm-height {
+        display:table;
+        padding-left:0;
+        padding-right:0;
+    }
+    .row-sm-height {
+        display:table-row;
+    }
+    .col-sm-height {
+        display:table-cell;
+        float:none;
+    }
+
     .listview {
         padding: 0 16%;
     }
+
+    .list-shortname {
+        text-align: left;
+    }
+
+    .list-fullname {
+        text-align: left;
+    }
+
+    .list-date {
+        text-align: left;
+    }
+
 }
 
 /* landscape phone to portrait tablet */
@@ -144,6 +187,38 @@ h3 {
 @media (max-width: 480px) {
     .listview {
         padding: 0 4%;
+    }
+
+    .list-heading {
+        padding: 5px 0 0;
+    }
+
+    .list-shortname {
+        font-size: 24px;
+    }
+
+    .list-fullname {
+        font-size: 12px;
+    }
+
+    .list-date {
+        font-size: 22px;
+    }
+
+    .list-timer-amount {
+        font-size: 20px;
+    }
+
+    .list-timer-period {
+        font-size: 12px;
+        text-transform: lowercase;
+    }
+}
+
+/* other special media query for list view */
+@media (min-width: 1400px) {
+    .listview {
+        padding: 0 30%;
     }
 }
 
