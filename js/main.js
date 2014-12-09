@@ -2,9 +2,23 @@ $(document).ready(function(){
 
     // load the data from deadlines.json file
     $.getJSON('deadlines.json', function(entries) {
+        // applyt html template to json data
         var template = $.templates("#entry-tmpl");
         var htmlOutput = template.render(entries);
         $("#entry-list").html(htmlOutput);
+
+        // initialize counters
+        $('[data-countdown]').each(function() {
+            var $this = $(this), finalDate = $(this).data('countdown');
+            $this.countdown(finalDate, function(event) {
+                $this.html(event.strftime(''
+                + '<div class="list-timer-section"><div class="list-timer-amount">%D</div><div class="list-timer-period">day%!d</div></div>'
+                + '<div class="list-timer-section"><div class="list-timer-amount">%H</div><div class="list-timer-period">hr</div></div>'
+                + '<div class="list-timer-section"><div class="list-timer-amount">%M</div><div class="list-timer-period">min</div></div>'
+                + '<div class="list-timer-section"><div class="list-timer-amount">%S</div><div class="list-timer-period">sec</div></div>'
+                ));
+            });
+        });
 
         // apply colors to different entries
         var colors = ["#E773BD","#CEA539","#94BD4A","#439D9A", "#6BA5E7", "#7F6E94", "#AA4379", "#AA4344", "#C27D4F", "#3A9548", "#306772", "#2C4566", "#423173", "#4C2C66", "#662C58", "#61292B", "#543A24"];

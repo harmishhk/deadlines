@@ -24,6 +24,7 @@
 <body>
     <section id="list-view">
         <div id="entry-list" class="container container-sm-height">
+        <!-- <div class="container container-sm-height"> -->
             <div id="entry1" class="row row-sm-height entry-block">
                 <div class="col-xs-12 col-sm-6 col-sm-height col-middle">
                     <div class="content">
@@ -34,22 +35,12 @@
                 </div>
                 <div class="col-xs-12 col-sm-6 col-sm-height col-middle">
                     <div class="content">
-                        <div class="list-timer-section">
-                            <div class="list-timer-amount">11</div><div class="list-timer-period">Days</div>
-                        </div>
-                        <div class="list-timer-section">
-                            <div class="list-timer-amount">1</div><div class="list-timer-period">Hours</div>
-                        </div>
-                        <div class="list-timer-section">
-                            <div class="list-timer-amount">11</div><div class="list-timer-period">Minutes</div>
-                        </div>
-                        <div class="list-timer-section">
-                            <div class="list-timer-amount">1</div><div class="list-timer-period">Seconds</div>
-                        </div>
+                        <div data-countdown="2016/01/01"></div>
                     </div>
                 </div>
             </div>
-            <div id="entry1" class="row row-sm-height entry-block">
+            <br>
+            <div id="entry2" class="row row-sm-height entry-block">
                 <div class="col-xs-12 col-sm-6 col-sm-height col-middle">
                     <div class="content">
                         <div class="list-shortname">Example 2</div>
@@ -59,18 +50,7 @@
                 </div>
                 <div class="col-xs-12 col-sm-6 col-sm-height col-middle">
                     <div class="content">
-                        <div class="list-timer-section">
-                            <div class="list-timer-amount">11</div><div class="list-timer-period">Days</div>
-                        </div>
-                        <div class="list-timer-section">
-                            <div class="list-timer-amount">22</div><div class="list-timer-period">Hours</div>
-                        </div>
-                        <div class="list-timer-section">
-                            <div class="list-timer-amount">33</div><div class="list-timer-period">Minutes</div>
-                        </div>
-                        <div class="list-timer-section">
-                            <div class="list-timer-amount">44</div><div class="list-timer-period">Seconds</div>
-                        </div>
+                        <div data-countdown="2016/02/01"></div>
                     </div>
                 </div>
             </div>
@@ -94,6 +74,9 @@
     <!-- jQuery (necessary for bootstrap's js plugins) -->
     <script src="js/jquery.min.js"></script>
 
+    <!-- jquery plugin for countdown timers -->
+    <script src="js/jquery.countdown.min.js"></script>
+
     <!-- compiled and minified bootstrap js -->
     <script src="js/bootstrap.min.js"></script>
     <!-- compiled and minifies bootstrap plugins -->
@@ -108,23 +91,12 @@
     <div class="content">
     <div class="list-shortname">{{:shorttitle}}</div>
     <div class="list-fullname">{{:fulltitle}}</div>
-    <div class="list-date">{{:day}} {{:month}}, {{:year}}</div>
+    <div class="list-date">{{:date}} {{:time}}</div>
     </div>
     </div>
     <div class="col-xs-12 col-sm-6 col-sm-height col-middle">
     <div class="content">
-    <div class="list-timer-section">
-    <div class="list-timer-amount">23</div><div class="list-timer-period">Days</div>
-    </div>
-    <div class="list-timer-section">
-    <div class="list-timer-amount">3</div><div class="list-timer-period">Hours</div>
-    </div>
-    <div class="list-timer-section">
-    <div class="list-timer-amount">45</div><div class="list-timer-period">Minutes</div>
-    </div>
-    <div class="list-timer-section">
-    <div class="list-timer-amount">55</div><div class="list-timer-period">Seconds</div>
-    </div>
+    <div data-countdown="{{:date}} {{:time}}"></div>
     </div>
     </div>
     </div>
