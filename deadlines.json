@@ -2,19 +2,22 @@
     {
         "entry_no": "entry1",
         "shorttitle": "HRI14",
-        "fulltitle": "human robot interaction",
-        "date": "2015-05-01T00:00:00.511Z"
+        "fulltitle": "human robot interaction 2014",
+        "date": "2015-05-01T00:34:00.511Z",
+        "background": "img/bielefeld.jpg"
     },
     {
         "entry_no": "entry2",
         "shorttitle": "HRI15",
-        "fulltitle": "human robot interaction",
-        "date": "2015-02-16T00:30:00.511Z"
+        "fulltitle": "human robot interaction 2015",
+        "date": "2015-02-16T00:30:00.511Z",
+        "background": "img/portland.jpg"
     },
     {
         "entry_no": "entry3",
         "shorttitle": "HRI16",
-        "fulltitle": "human robot interaction",
-        "date": "2015-06-23T00:00:30.511Z"
+        "fulltitle": "human robot interaction 2016",
+        "date": "2015-06-23T06:00:30.511Z",
+        "background": "img/new-zealand.jpg"
     }
 ]

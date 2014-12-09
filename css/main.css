@@ -213,6 +213,12 @@ body {
         font-size: 12px;
         text-transform: lowercase;
     }
+
+    .timer-box{
+        margin: 35px 30px;
+        padding: 20px 0 0 0;
+        width: 110px;
+    }
 }
 
 /* other special media query for list view */

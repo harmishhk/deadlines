@@ -58,13 +58,15 @@
     </section>
 
     <section id="details-view" style="display:none">
-        <div id="fullpage-bg" class="container fullview">
-            <h1 id="shorttitle"></h1>
-            <h2 id="fulltitle"></h2>
-            <div id="days" class="timer-box"></div>
-            <div id="hours" class="timer-box"></div>
-            <div id="minutes" class="timer-box"></div>
-            <div id="seconds" class="timer-box"></div>
+        <div id="details-page" class+"container">
+            <div id="fullpage-bg" class=" fullview">
+                <h1 id="shorttitle"></h1>
+                <h2 id="fulltitle"></h2>
+                <div id="days" class="timer-box"></div>
+                <div id="hours" class="timer-box"></div>
+                <div id="minutes" class="timer-box"></div>
+                <div id="seconds" class="timer-box"></div>
+            </div>
         </div>
     </section>
 
@@ -104,6 +106,15 @@
     </div>
     </div>
     <div class="row row-sm-height"><br></div>
+    </script>
+
+    <!--  define the template for details view page -->
+    <script id="details-tmpl" type="text/x-jsrender">
+    <div id="fullpage-bg" class=" fullview">
+    <h1>{{:shorttitle}}</h1>
+    <h2>{{:fulltitle}}</h2>
+    <div id="data-detail-counter"></div>
+    </div>
     </script>
 
     <!-- custom js -->
