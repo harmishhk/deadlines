@@ -81,6 +81,9 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- compiled and minifies bootstrap plugins -->
 
+    <!-- moment for date formatting -->
+    <script src="js/moment-with-locales.min.js"></script>
+
     <!-- jsrender for rendring json objects -->
     <script src="js/jsrender.min.js"></script>
 
@@ -91,12 +94,12 @@
     <div class="content">
     <div class="list-shortname">{{:shorttitle}}</div>
     <div class="list-fullname">{{:fulltitle}}</div>
-    <div class="list-date">{{:date}} {{:time}}</div>
+    <div class="list-date">{{format:date type="view"}}</div>
     </div>
     </div>
     <div class="col-xs-12 col-sm-6 col-sm-height col-middle">
     <div class="content">
-    <div data-countdown="{{:date}} {{:time}}"></div>
+    <div data-countdown="{{format:date type="counter"}}"></div>
     </div>
     </div>
     </div>

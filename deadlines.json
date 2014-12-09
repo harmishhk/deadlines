@@ -3,21 +3,18 @@
         "entry_no": "entry1",
         "shorttitle": "HRI14",
         "fulltitle": "human robot interaction",
-        "date": "2015/12/01",
-        "time": "9:00:00"
+        "date": "2015-05-01T00:00:00.511Z"
     },
     {
         "entry_no": "entry2",
         "shorttitle": "HRI15",
         "fulltitle": "human robot interaction",
-        "date": "2015/11/05",
-        "time": "8:30:00"
+        "date": "2015-02-16T00:30:00.511Z"
     },
     {
         "entry_no": "entry3",
         "shorttitle": "HRI16",
         "fulltitle": "human robot interaction",
-        "date": "2015/02/16",
-        "time": "00:00:00"
+        "date": "2015-06-23T00:00:30.511Z"
     }
 ]

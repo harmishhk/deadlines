@@ -2,6 +2,29 @@ $(document).ready(function(){
 
     // load the data from deadlines.json file
     $.getJSON('deadlines.json', function(entries) {
+
+        // convert date values for view and counters
+        $.views.converters({
+            format: function(value) {
+                var type = this.tagCtx.props.type;
+
+                var myDate = new moment(value);
+                var result = "";
+
+                switch(type) {
+                    case "view":
+                        result = myDate.format("LLLL");
+                        break;
+
+                    case "counter":
+                        result = myDate.format("YYYY[/]MM[/]DD hh[:]mm[:]ss");
+                        break;
+                }
+
+                return result;
+            }
+        });
+
         // applyt html template to json data
         var template = $.templates("#entry-tmpl");
         var htmlOutput = template.render(entries);
@@ -13,9 +36,9 @@ $(document).ready(function(){
             $this.countdown(finalDate, function(event) {
                 $this.html(event.strftime(''
                 + '<div class="list-timer-section"><div class="list-timer-amount">%D</div><div class="list-timer-period">day%!d</div></div>'
-                + '<div class="list-timer-section"><div class="list-timer-amount">%H</div><div class="list-timer-period">hr</div></div>'
-                + '<div class="list-timer-section"><div class="list-timer-amount">%M</div><div class="list-timer-period">min</div></div>'
-                + '<div class="list-timer-section"><div class="list-timer-amount">%S</div><div class="list-timer-period">sec</div></div>'
+                + '<div class="list-timer-section"><div class="list-timer-amount">%H</div><div class="list-timer-period">hour%!H</div></div>'
+                + '<div class="list-timer-section"><div class="list-timer-amount">%M</div><div class="list-timer-period">minute%!M</div></div>'
+                + '<div class="list-timer-section"><div class="list-timer-amount">%S</div><div class="list-timer-period">second%!S</div></div>'
                 ));
             });
         });
