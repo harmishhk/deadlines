@@ -62,6 +62,18 @@ $(document).ready(function(){
     rand = Math.floor(Math.random()*colors.length);
     $('#entry2').css("background-color", colors[rand]);
 
+    // set background image of details page to show bing map
+    var mapOptions = {
+        credentials: "Your-Bing-Maps-Key",
+        showDashboard: false,
+        showScalebar: false,
+        mapTypeId: Microsoft.Maps.MapTypeId.aerial,
+        width: $(window).width(),
+        height: $(window).height(),
+        zoom: 13
+    }
+    var map = new Microsoft.Maps.Map(document.getElementById("map"), mapOptions);
+
     // trasit to detailed view when any entry is clicked
     $(".entry-block").click(function(event){
         // get clicket entry
@@ -87,18 +99,30 @@ $(document).ready(function(){
             + '<div class="list-timer-section"><div class="list-timer-amount">%S</div><div class="list-timer-period">second%!S</div></div>'));
         });
 
-        // change background image of details page
-        $('#fullpage-bg').css("background-image", "url(" + entry.background + ")");
-        $('#fullpage-bg').css("background-size", "cover");
+        // update center of the map from location specified in entry
+        map.setView({
+            center: new Microsoft.Maps.Location(entry.location.split(",")[0],entry.location.split(",")[1]),
+            animate:false
+        });
 
         // finally show the details page
-        $("#list-view").fadeOut();
-        $("#details-view").fadeIn();
+        $("#list-view").fadeOut('slow');
+        $("#details-view").delay(800).fadeIn('slow');
     });
 
     // transit back to list view when something is clicked on detailed view
     $("#details-view").click(function(){
-        $("#details-view").fadeOut();
-        $("#list-view").fadeIn();
+        $("#details-view").fadeOut('slow');
+        $("#list-view").delay(800).fadeIn('slow');
+    });
+
+    // resize and re-center the map on window resize
+    $(window).resize(function () {
+        map.setView({
+            width: $(window).width(),
+            height: $(window).height(),
+            center: map.getCenter(),
+            animate:false
+        });
     });
 });
