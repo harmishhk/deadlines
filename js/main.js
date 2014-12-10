@@ -58,9 +58,9 @@ $(document).ready(function(){
     // apply colors to different entries
     var colors = ["#E773BD","#CEA539","#94BD4A","#439D9A", "#6BA5E7", "#7F6E94", "#AA4379", "#AA4344", "#C27D4F", "#3A9548", "#306772", "#2C4566", "#423173", "#4C2C66", "#662C58", "#61292B", "#543A24"];
     var rand = Math.floor(Math.random()*colors.length);
-    $('#entry1').css("background-color", colors[rand]);
+    $('#entry-1').css("background-color", colors[rand]);
     rand = Math.floor(Math.random()*colors.length);
-    $('#entry2').css("background-color", colors[rand]);
+    $('#entry-2').css("background-color", colors[rand]);
 
     // set background image of details page to show bing map
     var mapOptions = {
