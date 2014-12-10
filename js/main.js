@@ -18,35 +18,26 @@ $(document).ready(function(){
     // function to convert date values for view and counters
     $.views.converters({
         format: function(value) {
-            var type = this.tagCtx.props.type;
-
-            var myDate = new moment(value);
             var result = "";
-
-            switch(type) {
+            switch(this.tagCtx.props.type) {
                 case "view":
-                    result = myDate.format("LLLL");
+                    result = new moment(value).format("LLLL");
                     break;
-
                 case "counter":
-                    result = myDate.format("YYYY[/]MM[/]DD hh[:]mm[:]ss");
+                    result = new moment(value).format("YYYY[/]MM[/]DD hh[:]mm[:]ss");
                     break;
             }
-
             return result;
         }
     });
 
     // applyt html template to json data using jsrender
-    var template = $.templates("#entry-tmpl");
-    var htmlOutput = template.render(entries);
-    $("#entry-list").html(htmlOutput);
+    $("#entries").html($.templates("#entry-tmpl").render(entries));
 
     // initialize the counters
     $('[data-countdown]').each(function() {
-        var $this = $(this), finalDate = $(this).data('countdown');
-        $this.countdown(finalDate, function(event) {
-            $this.html(event.strftime(''
+        $(this).countdown($(this).data('countdown'), function(event) {
+            $(this).html(event.strftime(''
             + '<div class="list-timer-section"><div class="list-timer-amount">%D</div><div class="list-timer-period">day%!d</div></div>'
             + '<div class="list-timer-section"><div class="list-timer-amount">%H</div><div class="list-timer-period">hour%!H</div></div>'
             + '<div class="list-timer-section"><div class="list-timer-amount">%M</div><div class="list-timer-period">minute%!M</div></div>'
@@ -75,7 +66,7 @@ $(document).ready(function(){
     var map = new Microsoft.Maps.Map(document.getElementById("map"), mapOptions);
 
     // trasit to detailed view when any entry is clicked
-    $(".entry-block").click(function(event){
+    $(".entry").click(function(event){
         // get clicket entry
         var entry = null;
         for (var i = 0; i < entries.length; i++) {
@@ -86,17 +77,15 @@ $(document).ready(function(){
         }
 
         // render details page with clicked entry
-        var template = $.templates("#details-tmpl");
-        var htmlOutput = template.render(entry);
-        $("#details-page").html(htmlOutput);
+        $("#details").html($.templates("#details-tmpl").render(entry));
 
         // initialize counter on the details page
-        $('#data-detail-counter').countdown(moment(entry.date).format("YYYY[/]MM[/]DD hh[:]mm[:]ss")).on('update.countdown', function(event) {
-            var $this = $(this).html(event.strftime(''
-            + '<div class="list-timer-section"><div class="list-timer-amount">%D</div><div class="list-timer-period">day%!d</div></div>'
-            + '<div class="list-timer-section"><div class="list-timer-amount">%H</div><div class="list-timer-period">hour%!H</div></div>'
-            + '<div class="list-timer-section"><div class="list-timer-amount">%M</div><div class="list-timer-period">minute%!M</div></div>'
-            + '<div class="list-timer-section"><div class="list-timer-amount">%S</div><div class="list-timer-period">second%!S</div></div>'));
+        $('#detail-timer').countdown(moment(entry.date).format("YYYY[/]MM[/]DD hh[:]mm[:]ss")).on('update.countdown', function(event) {
+            $(this).html(event.strftime(''
+            + '<div class="detail-timer-section"><div class="detail-timer-amount">%D</div><div class="detail-timer-period">day%!d</div></div>'
+            + '<div class="detail-timer-section"><div class="detail-timer-amount">%H</div><div class="detail-timer-period">hour%!H</div></div>'
+            + '<div class="detail-timer-section"><div class="detail-timer-amount">%M</div><div class="detail-timer-period">minute%!M</div></div>'
+            + '<div class="detail-timer-section"><div class="detail-timer-amount">%S</div><div class="detail-timer-period">second%!S</div></div>'));
         });
 
         // update center of the map from location specified in entry
@@ -106,14 +95,14 @@ $(document).ready(function(){
         });
 
         // finally show the details page
-        $("#list-view").fadeOut('slow');
+        $("#entries-view").fadeOut('slow');
         $("#details-view").delay(800).fadeIn('slow');
     });
 
     // transit back to list view when something is clicked on detailed view
     $("#details-view").click(function(){
         $("#details-view").fadeOut('slow');
-        $("#list-view").delay(800).fadeIn('slow');
+        $("#entries-view").delay(800).fadeIn('slow');
     });
 
     // resize and re-center the map on window resize
@@ -125,4 +114,7 @@ $(document).ready(function(){
             animate:false
         });
     });
+
+    // smooth fadein effect at start
+    $("#entries-view").delay(200).fadeIn('slow');
 });

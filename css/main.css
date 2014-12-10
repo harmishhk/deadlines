@@ -1,51 +1,48 @@
-h1 {
-    font-size: 60px;
-    font-weight: bold;
-    padding: 80px 0 0 0;
-}
-
-h2 {
-    font-size: 20px;
-}
-
-h3 {
-    font-size: 48px;
-    margin-top: 8px;
-    margin-bottom: 0;
-}
-
-.listview {
-    padding: 0 20%;
-    position:relative;
-}
-
+/* bootstrap3 related settings */
 .col-middle {
     vertical-align:middle;
 }
-
 .row {
     margin: 0 4px 0;
 }
 
-.entry-block{
+/* shadowing each entry box */
+.entry{
     box-shadow:1px 1px 5px rgba(0,0,0,0.4);
 }
 
+/* hover effect for entries */
+.entry:hover {
+    opacity: 0.7;
+    -webkit-transition: background-color 100ms linear;
+    -moz-transition: background-color 100ms linear;
+    -o-transition: background-color 100ms linear;
+    -ms-transition: background-color 100ms linear;
+    transition: background-color 100ms linear;
+}
+
+/* middeling the entry contents in list view */
+.list-content {
+    width: 100%;
+    vertical-align:middle;
+    text-align:left;
+}
+
+/* setting fonts in list view */
 .list-shortname {
-    font-size: 30px;
-    font-weight: 200;
+    font-size: 34px;
+    padding: 10px 0 0 0;
 }
-
 .list-fullname {
-    font-size: 14px;
+    font-size: 16px;
+    padding: 0;
 }
-
 .list-date {
-    font-size: 20px;
-    font-weight: 200;
-    padding: 0 0 5px;
+    font-size: 24px;
+    padding: 15px 0 10px;
 }
 
+/* styling timer section in list view */
 .list-timer-section {
     display: inline-block;
     height: 100%;
@@ -57,68 +54,70 @@ h3 {
     letter-spacing: 1px;
     vertical-align:middle;
 }
-
 .list-timer-section:first-child {
     border-left: 0;
 }
-
 .list-timer-amount {
-    font-size: 28px;
-    font-weight: 200;
+    font-size: 34px;
     padding: 1px;
 }
-
 .list-timer-period {
-    font-size: 14px;
+    font-size: 16px;
     text-transform: lowercase;
 }
 
-.fullview {
-    background-color: rgb(0, 0, 0);
-    background-color: rgba(0, 0, 0, .4);
-    background-repeat: no-repeat;
+/* middleing entry on details view */
+.detail {
     text-align: center;
     left: 0; top: 0;
     width: 100%;
     height: 100%;
     position:absolute;
+    padding-top: 40px;
+    color: white;
     z-index: 2;
-    color: white;
+    font-weight: 600;
 }
 
-.entry-block:hover {
-    opacity: 0.7;
-    -webkit-transition: background-color 100ms linear;
-    -moz-transition: background-color 100ms linear;
-    -o-transition: background-color 100ms linear;
-    -ms-transition: background-color 100ms linear;
-    transition: background-color 100ms linear;
+/* setting fonts in list view */
+.detail-shortname {
+    font-size: 52px;
+    padding: 20px 0 0 0;
+}
+.detail-fullname {
+    font-size: 24px;
+    padding: 0;
+}
+.detail-date {
+    font-size: 36px;
+    padding: 30px 0 20px;
 }
 
-.timer-box{
+/* styling timer section in list view */
+.detail-timer-section {
     display: inline-block;
-    border-radius: 50%;
-    border: 4px solid rgb(255, 255, 255);
-    border: 4px solid rgba(255, 255, 255, .6);
-    color: white;
+    height: 100%;
+    width: 15%;
+    border-left: 2px dotted #dadada;
+    border-color: rgb(218,218,218);
+    border-color: rgba(218,218,218,0.8);
     text-align: center;
-    margin: 35px 24px;
-    padding: 20px 12px 0 12px;
-    width: 120px;
+    letter-spacing: 1px;
+    vertical-align:middle;
 }
-
-.timer-box p{
-    margin-top: 0;
+.detail-timer-section:first-child {
+    border-left: 0;
+}
+.detail-timer-amount {
+    font-size: 52px;
+    padding: 1px;
+}
+.detail-timer-period {
+    font-size: 24px;
     text-transform: lowercase;
 }
 
-/* content styles */
-.content {
-    width: 100%;
-    vertical-align:middle;
-    text-align:center;
-}
-
+/*  making the map on details page darker with an overlay */
 .darken-overlay {
     position: fixed;
     width: 100%;
@@ -130,124 +129,154 @@ h3 {
     opacity: 0.4;
 }
 
-/* centering styles for jsbin */
+/* setting single row view in list view for desktops */
+.container-sm-height {
+    display:table;
+    padding-left:0;
+    padding-right:0;
+}
+.row-sm-height {
+    display:table-row;
+}
+.col-sm-height {
+    display:table-cell;
+    float:none;
+}
+
+/* centering styles */
 html,
 body {
     width:100%;
+    font-family: raleway, sans-serif;
+    font-weight: 400;
 }
 
-/* above things work on default size of 980px and up, for other we use media queries */
+/* above things work on default size of 1200px and above, for other we use media queries */
 
 /* large desktop */
-@media (min-width: 1200px) {
-    .listview {
-        padding: 0 25%;
+@media only screen and (max-width : 1200px) {
+    /* setting timer width in details view */
+    .detail-timer-section {
+        width: 18%;
     }
 }
 
-@media (min-width: 768px) {
+/* dedium devices, desktops */
+@media only screen and (max-width : 992px) {
+    /* setting fonts in list view */
+    .list-shortname,
+    .list-timer-amount {
+        font-size: 32px;
+    }
+    .list-date {
+        font-size: 18px;
+    }
+    .list-fullname,
+    .list-timer-period {
+        font-size: 14px;
+    }
+
+    /* setting fonts in details view */
+    .detail-shortname,
+    .detail-timer-amount {
+        font-size: 48px;
+    }
+    .detail-date {
+        font-size: 34px;
+    }
+    .detail-fullname,
+    .detail-timer-period {
+        font-size: 22px;
+    }
+
+    /* setting timer width in details view */
+    .detail-timer-section {
+        width: 20%;
+    }
+}
+
+/* small devices, tablets */
+@media only screen and (max-width : 768px) {
+    /* setting two row view in list view for small devices */
     .container-sm-height {
-        display:table;
-        padding-left:0;
-        padding-right:0;
+        display:block;
     }
     .row-sm-height {
-        display:table-row;
+        display:block;
     }
     .col-sm-height {
-        display:table-cell;
-        float:none;
+        display:block;
+    }
+    .list-content {
+        text-align:center;
     }
 
-    .listview {
-        padding: 0 16%;
+    /* setting fonts in list view */
+    .list-shortname,
+    .list-timer-amount {
+        font-size: 30px;
     }
-
-    .list-shortname {
-        text-align: left;
-    }
-
-    .list-fullname {
-        text-align: left;
-    }
-
     .list-date {
-        text-align: left;
+        font-size: 18px;
+    }
+    .list-fullname,
+    .list-timer-period {
+        font-size: 12px;
     }
 
-}
-
-/* landscape phone to portrait tablet */
-@media (max-width: 767px) {
-    .listview {
-        padding: 0 10%;
+    /* add some space below in two row view */
+    .list-timer-row{
+        padding-bottom: 10px;
     }
 
-    .timer-box{
-        margin: 35px 12px;
-        padding: 16px 0 0 0;
-        width: 100px;
+    /* setting fonts in details view */
+    .detail-shortname,
+    .detail-timer-amount {
+        font-size: 45px;
+    }
+    .detail-date {
+        font-size: 28px;
+    }
+    .detail-fullname,
+    .detail-timer-period {
+        font-size: 18px;
     }
 
-    h3 {
-        font-size: 32px;
+    /* setting timer width in details view */
+    .detail-timer-section {
+        width: 25%;
     }
 }
 
 /* landscape phones and down */
-@media (max-width: 480px) {
-    .listview {
-        padding: 0 4%;
-    }
-
-    .list-heading {
-        padding: 5px 0 0;
-    }
-
-    .list-shortname {
+@media only screen and (max-width : 480px) {
+    /* setting fonts in list view */
+    .list-shortname,
+    .list-timer-amount {
         font-size: 24px;
     }
-
-    .list-fullname {
-        font-size: 12px;
-    }
-
     .list-date {
-        font-size: 22px;
+        font-size: 14px;
+    }
+    .list-fullname,
+    .list-timer-period {
+        font-size: 11px;
     }
 
-    .list-timer-amount {
+    /* setting fonts in details view */
+    .detail-shortname {
+        font-size: 34px;
+    }
+    .detail-timer-amount {
+        font-size: 28px;
+    }
+    .detail-date {
         font-size: 20px;
     }
-
-    .list-timer-period {
+    .detail-fullname {
+        font-size: 14px;
+    }
+    .detail-timer-period {
         font-size: 12px;
-        text-transform: lowercase;
-    }
-
-    .timer-box{
-        margin: 35px 30px;
-        padding: 20px 0 0 0;
-        width: 110px;
-    }
-}
-
-/* other special media query for list view */
-@media (min-width: 1400px) {
-    .listview {
-        padding: 0 30%;
-    }
-}
-
-/* other special media query for full page view */
-@media (max-width: 538px) {
-    .timer-box{
-        margin: 35px 30px;
-        padding: 20px 0 0 0;
-        width: 110px;
-    }
-
-    h3 {
-        font-size: 32px;
     }
 }
