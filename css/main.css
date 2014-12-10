@@ -8,17 +8,18 @@
 
 /* shadowing each entry box */
 .entry{
+    background-color: #eeeeee;
     box-shadow:1px 1px 5px rgba(0,0,0,0.4);
 }
 
 /* hover effect for entries */
 .entry:hover {
-    opacity: 0.7;
-    -webkit-transition: background-color 100ms linear;
-    -moz-transition: background-color 100ms linear;
-    -o-transition: background-color 100ms linear;
-    -ms-transition: background-color 100ms linear;
-    transition: background-color 100ms linear;
+    background-color: #cccccc;
+    -webkit-transition: background-color 400ms linear;
+    -moz-transition: background-color 400ms linear;
+    -o-transition: background-color 400ms linear;
+    -ms-transition: background-color 400ms linear;
+    transition: background-color 400ms linear;
 }
 
 /* middeling the entry contents in list view */
@@ -149,6 +150,7 @@ body {
     width:100%;
     font-family: raleway, sans-serif;
     font-weight: 400;
+    background-color: #efefef;
 }
 
 /* above things work on default size of 1200px and above, for other we use media queries */
