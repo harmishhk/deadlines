@@ -24,7 +24,7 @@ $(document).ready(function(){
                     result = new moment(value).format("LLLL");
                     break;
                 case "counter":
-                    result = new moment(value).format("YYYY[/]MM[/]DD hh[:]mm[:]ss");
+                    result = new moment(value).format("YYYY[/]MM[/]DD HH[:]mm[:]ss");
                     break;
             }
             return result;
@@ -43,6 +43,8 @@ $(document).ready(function(){
             + '<div class="list-timer-section"><div class="list-timer-amount">%M</div><div class="list-timer-period">minute%!M</div></div>'
             + '<div class="list-timer-section"><div class="list-timer-amount">%S</div><div class="list-timer-period">second%!S</div></div>'
             ));
+            // update current date on lists page within same callback
+            $('#date').html(moment().format("LLLL"));
         });
     });
 
@@ -73,7 +75,7 @@ $(document).ready(function(){
         $("#details").html($.templates("#details-tmpl").render(entry));
 
         // initialize counter on the details page
-        $('#detail-timer').countdown(moment(entry.date).format("YYYY[/]MM[/]DD hh[:]mm[:]ss")).on('update.countdown', function(event) {
+        $('#detail-timer').countdown(moment(entry.date).format("YYYY[/]MM[/]DD HH[:]mm[:]ss")).on('update.countdown', function(event) {
             $(this).html(event.strftime(''
             + '<div class="detail-timer-section"><div class="detail-timer-amount">%D</div><div class="detail-timer-period">day%!d</div></div>'
             + '<div class="detail-timer-section"><div class="detail-timer-amount">%H</div><div class="detail-timer-period">hour%!H</div></div>'
@@ -108,11 +110,6 @@ $(document).ready(function(){
         });
     });
 
-    // show current time on list view page
-    $('#date').html(moment().format("dddd, MMMM Do, YYYY, h:MM:ss A"));
-    setInterval(function(){
-        $('#date').html(moment().format("dddd, MMMM Do, YYYY, h:MM:ss A"));
-    }, 1000);
     // smooth fadein effect at start
     $("#entries-view").delay(200).fadeIn('slow');
 });
