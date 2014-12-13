@@ -1,11 +1,11 @@
 # deadlines
 
-Countdown to upcoming conference deadlines.
+Countdown to upcoming conference and journal deadlines.
 
-- Landing page shows list of all upcoming deadlines in simple, beautiful design based on Bootstrap.
-- Click any entry to have full-page view of that entry with location of the conference loaded in the background.
+- Landing page shows list of all upcoming deadlines in simple, beautiful design based on [Bootstrap](http://getbootstrap.com).
+- Click any entry to have full-page view of that entry with location of the conference loaded in the page background.
 
-Concept adapted from http://academiccountdown.com/
+Concept adapted from http://academiccountdown.com.
 
 # Getting Started
 

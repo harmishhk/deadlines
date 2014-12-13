@@ -114,11 +114,18 @@ $(document).ready(function(){
             $("#entries-view").delay(4000).fadeIn('slow');
         });
 
-        // update center of the map from location specified in entry
-        map.setView({
-            center: new Microsoft.Maps.Location(entry.location.split(",")[0],entry.location.split(",")[1]),
-            animate:false
-        });
+        // update center of the map from location specified in entry, if given
+        if('location' in entry) {
+            map.setView({
+                center: new Microsoft.Maps.Location(entry.location.split(",")[0],entry.location.split(",")[1]),
+                animate:false
+            });
+            $('#map').show();
+        }
+        else {
+            $('#map').hide();
+        }
+
 
         // finally show the details page
         $("#entries-view").fadeOut('slow');
