@@ -67,7 +67,7 @@ $(document).ready(function(){
 
     // set background image of details page to show bing map
     var mapOptions = {
-        credentials: "Your-Bing-Maps-Key",
+        credentials: "Your Bing Maps Key",
         showDashboard: false,
         showScalebar: false,
         mapTypeId: Microsoft.Maps.MapTypeId.aerial,

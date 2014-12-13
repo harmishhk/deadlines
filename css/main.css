@@ -44,7 +44,7 @@
     padding: 0;
 }
 .list-date {
-    font-size: 24px;
+    font-size: 22px;
     padding: 15px 0 10px;
 }
 
@@ -176,7 +176,7 @@ body {
         font-size: 32px;
     }
     .list-date {
-        font-size: 18px;
+        font-size: 16px;
     }
     .list-fullname,
     .list-timer-period {
