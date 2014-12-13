@@ -12,8 +12,13 @@ $(document).ready(function(){
                 json = data;
             }
         });
-        // todo: remove finished deadlines
 
+        // remove passed entries
+        for(var i = json.length -1; i >= 0 ; i--){
+            if(moment(json[i].date).isBefore()){
+                json.splice(i, 1);
+            }
+        }
         return json;
     })();
 
