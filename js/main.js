@@ -12,6 +12,8 @@ $(document).ready(function(){
                 json = data;
             }
         });
+        // todo: remove finished deadlines
+
         return json;
     })();
 
@@ -36,7 +38,8 @@ $(document).ready(function(){
 
     // initialize the counters
     $('[data-countdown]').each(function() {
-        $(this).countdown($(this).data('countdown'), function(event) {
+        $(this).countdown($(this).data('countdown'))
+        .on('update.countdown', function(event) {
             $(this).html(event.strftime(''
             + '<div class="list-timer-section"><div class="list-timer-amount">%D</div><div class="list-timer-period">day%!d</div></div>'
             + '<div class="list-timer-section"><div class="list-timer-amount">%H</div><div class="list-timer-period">hour%!H</div></div>'
@@ -45,6 +48,20 @@ $(document).ready(function(){
             ));
             // update current date on lists page within same callback
             $('#date').html(moment().format("LLLL"));
+        })
+        .on('finish.countdown', function(event) {
+            $(this).html(event.strftime(''
+            + '<div class="list-timer-section"><div class="list-timer-amount">%D</div><div class="list-timer-period">day%!d</div></div>'
+            + '<div class="list-timer-section"><div class="list-timer-amount">%H</div><div class="list-timer-period">hour%!H</div></div>'
+            + '<div class="list-timer-section"><div class="list-timer-amount">%M</div><div class="list-timer-period">minute%!M</div></div>'
+            + '<div class="list-timer-section"><div class="list-timer-amount">%S</div><div class="list-timer-period">second%!S</div></div>'
+            ));
+            var node = this;
+            while(node.id.indexOf("entry") == -1) {
+                node = node.parentElement;
+            }
+            $(node).delay(4000).fadeOut("slow");
+            $(node.nextElementSibling).delay(4000).fadeOut("slow");
         });
     });
 
@@ -75,12 +92,21 @@ $(document).ready(function(){
         $("#details").html($.templates("#details-tmpl").render(entry));
 
         // initialize counter on the details page
-        $('#detail-timer').countdown(moment(entry.date).format("YYYY[/]MM[/]DD HH[:]mm[:]ss")).on('update.countdown', function(event) {
+        $('#detail-timer').countdown(moment(entry.date).format("YYYY[/]MM[/]DD HH[:]mm[:]ss"))
+        .on('update.countdown', function(event) {
             $(this).html(event.strftime(''
             + '<div class="detail-timer-section"><div class="detail-timer-amount">%D</div><div class="detail-timer-period">day%!d</div></div>'
             + '<div class="detail-timer-section"><div class="detail-timer-amount">%H</div><div class="detail-timer-period">hour%!H</div></div>'
             + '<div class="detail-timer-section"><div class="detail-timer-amount">%M</div><div class="detail-timer-period">minute%!M</div></div>'
             + '<div class="detail-timer-section"><div class="detail-timer-amount">%S</div><div class="detail-timer-period">second%!S</div></div>'));
+        }).on('finish.countdown', function(event) {
+            $(this).html(event.strftime(''
+            + '<div class="detail-timer-section"><div class="detail-timer-amount">%D</div><div class="detail-timer-period">day%!d</div></div>'
+            + '<div class="detail-timer-section"><div class="detail-timer-amount">%H</div><div class="detail-timer-period">hour%!H</div></div>'
+            + '<div class="detail-timer-section"><div class="detail-timer-amount">%M</div><div class="detail-timer-period">minute%!M</div></div>'
+            + '<div class="detail-timer-section"><div class="detail-timer-amount">%S</div><div class="detail-timer-period">second%!S</div></div>'));
+            $("#details-view").fadeOut(4000);
+            $("#entries-view").delay(4000).fadeIn('slow');
         });
 
         // update center of the map from location specified in entry
