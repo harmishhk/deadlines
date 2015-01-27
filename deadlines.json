@@ -19,5 +19,47 @@
         "fulltitle": "Robot and Human Interactive Communication",
         "date": "2015-02-16T23:59:59.000-08:00",
         "location": "34.666210, 135.212994"
+    },
+    {
+        "entry_no": "entry-4",
+        "shorttitle": "MLSR (ICRA WS)",
+        "fulltitle": "Workshop on Machine Learning for Social Robotics",
+        "date": "March 15, 2015, 23:59 PST",
+        "location": "47.611416, -122.331548"
+    },
+    {
+        "entry_no": "entry-5",
+        "shorttitle": "ICAR",
+        "fulltitle": "International Conference on Advanced Robotics",
+        "date": "February 1, 2015",
+        "location": "41.024700,28.959591"
+    },
+    {
+        "entry_no": "entry-6",
+        "shorttitle": "RLDM",
+        "fulltitle": "The Multi-disciplinary Conference on Reinforcement Learning and Decision Making",
+        "date": "13 Feb 2015, 11:59 PM EST",
+        "location": "53.522725, -113.520265"
+    },
+    {
+        "entry_no": "entry-7",
+        "shorttitle": "FSR",
+        "fulltitle": "Field and Service Robotics",
+        "date": "13 Feb 2015, 11:59 PM EST",
+        "location": "43.667751,-79.398643"
+    },
+    {
+        "entry_no": "entry-8",
+        "shorttitle": "ARW",
+        "fulltitle": "Austrian Robotics Workshop",
+        "date": "March 01, 2015",
+        "location": "46.617199,14.267280"
+    },
+    {
+        "entry_no": "entry-9",
+        "shorttitle": "ECMR",
+        "fulltitle": "European Conference on Mobile Robots",
+        "date": "14 April 2015",
+        "location": "53.228500,-0.547900"
     }
 ]
