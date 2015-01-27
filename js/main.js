@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(function () {
 
     // load json data using a blocking call
     var entries = (function () {
@@ -14,12 +14,13 @@ $(document).ready(function(){
         });
 
         // remove passed entries
-        for(var i = json.length -1; i >= 0 ; i--){
+        for (var i = json.length -1; i >= 0 ; i--){
             if(moment(json[i].date).isBefore()){
                 json.splice(i, 1);
             }
         }
-        return json;
+
+        return json.sort(function(lhs, rhs) {return moment(lhs.date) > moment(rhs.date) ? 1 : moment(lhs.date) < moment(rhs.date) ? -1 : 0;});
     })();
 
     // function to convert date values for view and counters
