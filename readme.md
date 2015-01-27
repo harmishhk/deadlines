@@ -11,3 +11,7 @@ Concept adapted from http://academiccountdown.com.
 
 - Replace Bing Maps credentials in `main.js`.
 - Add entries to `deadlines.json` using simple JSON syntax.
+
+# Demo
+
+http://homepages.laas.fr/hkhambha/deadlines
