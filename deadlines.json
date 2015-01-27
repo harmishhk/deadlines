@@ -61,5 +61,12 @@
         "fulltitle": "European Conference on Mobile Robots",
         "date": "14 April 2015",
         "location": "53.228500,-0.547900"
+    },
+    {
+        "entry_no": "entry-10",
+        "shorttitle": "ICSR",
+        "fulltitle": "International Conference on Social Robotics",
+        "date": "1 June 2015",
+        "location": "48.856930,2.341200"
     }
 ]
