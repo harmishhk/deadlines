@@ -10,7 +10,7 @@
         "entry_no": "entry-2",
         "shorttitle": "IROS",
         "fulltitle": "Intelligent Robots and Systems",
-        "date": "March 2, 2015 PST",
+        "date": "March 4, 2015, 23:59 PST",
         "location": "53.561881,9.985811"
     },
     {
@@ -80,7 +80,21 @@
         "entry_no": "entry-12",
         "shorttitle": "ARSO",
         "fulltitle": "International Workshop on Advanced Robotics and its Social Impacts",
-        "date": "March 10, 2015",
+        "date": "March 31, 2015, 23:59",
         "location": "45.785189, 4.855162"
+    },
+    {
+        "entry_no": "entry-13",
+        "shorttitle": "ICINCO",
+        "fulltitle": "International Conference on Informatics in Control, Automation and Robotics",
+        "date": "March 3, 2015, 23:59",
+        "location": "48.077743, 7.369761"
+    },
+    {
+        "entry_no": "entry-14",
+        "shorttitle": "HAI",
+        "fulltitle": "International Conference on Human-Agenet Interaction",
+        "date": "May 15, 2015, 23:59",
+        "location": "5.891390,128.610600"
     }
 ]
