@@ -73,7 +73,7 @@
         "entry_no": "entry-11",
         "shorttitle": "ISRR",
         "fulltitle": "International Symposium on Robotics Research",
-        "date": "March 31, 2015",
+        "date": "April 27, 2015 23:59",
         "location": "44.268970,9.391764"
     },
     {
@@ -103,5 +103,19 @@
         "fulltitle": "International Conference on Information and Automation",
         "date": "May 10, 2015, 23:59",
         "location": "26.874730,100.234900"
+    },
+    {
+        "entry_no": "entry-16",
+        "shorttitle": "LfHRC",
+        "fulltitle": "Workshop on Learning for Human-Robot Collaboration (RO-MAN)",
+        "date": "May 8, 2015, 23:59",
+        "location": "34.666210, 135.212994"
+    },
+    {
+        "entry_no": "entry-17",
+        "shorttitle": "Social HRI Workshop",
+        "fulltitle": "Social HRI: Overcoming Barruers Through Appearance, Behavior and Context-Based Design (RO-MAN)",
+        "date": "May 8, 2015, 23:59",
+        "location": "34.666210, 135.212994"
     }
 ]
