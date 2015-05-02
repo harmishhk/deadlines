@@ -117,5 +117,19 @@
         "fulltitle": "Social HRI: Overcoming Barruers Through Appearance, Behavior and Context-Based Design (RO-MAN)",
         "date": "May 8, 2015, 23:59",
         "location": "34.666210, 135.212994"
+    },
+    {
+        "entry_no": "entry-18",
+        "shorttitle": "MLIS",
+        "fulltitle": "Machine Learning for Interactive Systems (ICML-WS)",
+        "date": "May 1, 2015, 23:59",
+        "location": "50.631531,3.079211"
+    },
+    {
+        "entry_no": "entry-19",
+        "shorttitle": "PPNIV",
+        "fulltitle": "7th Workshop on Planning, Perception and Navigation for Intelligent Vehicles (IROS-WS)",
+        "date": "July 1, 2015, 23:59",
+        "location": "53.560660, 9.988360"
     }
 ]
