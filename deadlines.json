@@ -115,7 +115,7 @@
         "entry_no": "entry-17",
         "shorttitle": "Social HRI Workshop",
         "fulltitle": "Social HRI: Overcoming Barruers Through Appearance, Behavior and Context-Based Design (RO-MAN)",
-        "date": "May 8, 2015, 23:59",
+        "date": "June 15, 2015, 23:59",
         "location": "34.666210, 135.212994"
     },
     {
@@ -131,5 +131,12 @@
         "fulltitle": "7th Workshop on Planning, Perception and Navigation for Intelligent Vehicles (IROS-WS)",
         "date": "July 1, 2015, 23:59",
         "location": "53.560660, 9.988360"
+    },
+    {
+        "entry_no": "entry-20",
+        "shorttitle": "LfD",
+        "fulltitle": "Learning from Demonstration: Inverse Optimal Control, Reinforcement Learning, and Lifelong Learning (RSS-WS)",
+        "date": "May 15, 2015, 23:59",
+        "location": "41.889538,12.503868"
     }
 ]
