@@ -108,7 +108,7 @@
         "entry_no": "entry-16",
         "shorttitle": "LfHRC",
         "fulltitle": "Workshop on Learning for Human-Robot Collaboration (RO-MAN)",
-        "date": "May 8, 2015, 23:59",
+        "date": "May 22, 2015, 23:59",
         "location": "34.666210, 135.212994"
     },
     {
@@ -136,7 +136,21 @@
         "entry_no": "entry-20",
         "shorttitle": "LfD",
         "fulltitle": "Learning from Demonstration: Inverse Optimal Control, Reinforcement Learning, and Lifelong Learning (RSS-WS)",
-        "date": "May 15, 2015, 23:59",
+        "date": "June 5, 2015, 23:59",
         "location": "41.889538,12.503868"
+    },
+    {
+        "entry_no": "entry-21",
+        "shorttitle": "MLPC",
+        "fulltitle": "Machine Learning in Planning and Control of Robot Motion Workshop (IROS-WS)",
+        "date": "July 10, 2015, 23:59",
+        "location": "53.560660, 9.988360"
+    },
+    {
+        "entry_no": "entry-22",
+        "shorttitle": "ARSO (Late Breaking Results)",
+        "fulltitle": "International Workshop on Advanced Robotics and its Social Impacts - Late Breaking Results",
+        "date": "June 7, 2015, 23:59",
+        "location": "45.785189, 4.855162"
     }
 ]
