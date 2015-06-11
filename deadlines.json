@@ -152,5 +152,19 @@
         "fulltitle": "International Workshop on Advanced Robotics and its Social Impacts - Late Breaking Results",
         "date": "June 7, 2015, 23:59",
         "location": "45.785189, 4.855162"
+    },
+    {
+        "entry_no": "entry-23",
+        "shorttitle": "HRI",
+        "fulltitle": "Human-Robot Interaction",
+        "date": "October 2, 2015, 23:59",
+        "location": "-43.526390,172.612396"
+    },
+    {
+        "entry_no": "entry-24",
+        "shorttitle": "ICRA",
+        "fulltitle": "International Conference on Robotics and Automation",
+        "date": "September 15, 2015, 23:59",
+        "location": "59.329922,18.056480"
     }
 ]
