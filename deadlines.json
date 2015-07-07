@@ -166,5 +166,19 @@
         "fulltitle": "International Conference on Robotics and Automation",
         "date": "September 15, 2015, 23:59",
         "location": "59.329922,18.056480"
+    },
+    {
+        "entry_no": "entry-25",
+        "shorttitle": "LOA (IROS WS)",
+        "fulltitle": "Learning Object Affordances: a fundamental step to allow prediction, planning and tool use?",
+        "date": "July 31, 2015, 23:59",
+        "location": "53.561881,9.985811"
+    },
+    {
+        "entry_no": "entry-26",
+        "shorttitle": "ISICS",
+        "fulltitle": "International Symposium on Intelligent Computing Systems",
+        "date": "October 12, 2015, 23:59",
+        "location": "18.995199,-98.209824"
     }
 ]
