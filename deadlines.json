@@ -180,5 +180,19 @@
         "fulltitle": "International Symposium on Intelligent Computing Systems",
         "date": "October 12, 2015, 23:59",
         "location": "18.995199,-98.209824"
+    },
+    {
+        "entry_no": "entry-27",
+        "shorttitle": "HFR",
+        "fulltitle": "International Workshop on Human-Friendly Robotics",
+        "date": "September 1, 2015, 23:59",
+        "location": "48.265174, 11.673269"
+    },
+    {
+        "entry_no": "entry-28",
+        "shorttitle": "TSE-HRI",
+        "fulltitle": "Towards Standarized Experiments in Human Robot Interactions (IROS-WS)",
+        "date": "August 24, 2015, 23:59",
+        "location": "53.561881,9.985811"
     }
 ]
