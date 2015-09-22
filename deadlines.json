@@ -201,5 +201,26 @@
         "fulltitle": "International Conference on Automated Planning and Scheduling",
         "date": "Nov 18, 2015, 23:59",
         "location": "51.510635, -0.116872"
+    },
+    {
+        "entry_no": "entry-30",
+        "shorttitle": "ICINCO",
+        "fulltitle": "International Conference on Informatics in Control, Automation and Robotics",
+        "date": "Mar 8, 2016, 23:59",
+        "location": "38.744270,-9.131838"
+    },
+    {
+        "entry_no": "entry-31",
+        "shorttitle": "RO-MAN",
+        "fulltitle": "International Symposium on Robot and Human Interactive Communication",
+        "date": "Feb 15, 2016, 23:59",
+        "location": "40.807540,-73.962570"
+    },
+    {
+        "entry_no": "entry-32",
+        "shorttitle": "IROS",
+        "fulltitle": "International Conference on Intelligent Robots and Systems",
+        "date": "March 1, 2016, 23:59",
+        "location": "36.37618, 127.390076"
     }
 ]
