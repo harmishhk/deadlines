@@ -8,164 +8,164 @@
     },
     {
         "entry_no": "entry-2",
-        "shorttitle": "IROS",
-        "fulltitle": "Intelligent Robots and Systems",
-        "date": "March 4, 2015, 23:59 PST",
-        "location": "53.561881,9.985811"
+        "shorttitle": "HRI",
+        "fulltitle": "Human-Robot Interaction",
+        "date": "October 5, 2015, 23:59",
+        "location": "-43.526390,172.612396"
     },
     {
         "entry_no": "entry-3",
-        "shorttitle": "RO-MAN",
-        "fulltitle": "Robot and Human Interactive Communication",
-        "date": "2015-02-23T23:59:59.000-08:00",
-        "location": "34.666210, 135.212994"
+        "shorttitle": "ICRA",
+        "fulltitle": "International Conference on Robotics and Automation",
+        "date": "September 15, 2015, 23:59",
+        "location": "59.329922,18.056480"
     },
     {
         "entry_no": "entry-4",
-        "shorttitle": "MLSR (ICRA WS)",
-        "fulltitle": "Workshop on Machine Learning for Social Robotics",
-        "date": "March 20, 2015, 23:59 PST",
-        "location": "47.611416, -122.331548"
+        "shorttitle": "IROS",
+        "fulltitle": "Intelligent Robots and Systems",
+        "date": "March 1, 2016, 23:59 PST",
+        "location": "53.561881,9.985811"
     },
     {
         "entry_no": "entry-5",
-        "shorttitle": "ICAR",
-        "fulltitle": "International Conference on Advanced Robotics",
-        "date": "February 15, 2015 PST",
-        "location": "41.024700,28.959591"
-    },
-    {
-        "entry_no": "entry-6",
-        "shorttitle": "RLDM",
-        "fulltitle": "The Multi-disciplinary Conference on Reinforcement Learning and Decision Making",
-        "date": "13 Feb 2015, 11:59 PM EST",
-        "location": "53.522725, -113.520265"
-    },
-    {
-        "entry_no": "entry-7",
-        "shorttitle": "FSR",
-        "fulltitle": "Field and Service Robotics",
-        "date": "13 Feb 2015, 11:59 PM EST",
-        "location": "43.667751,-79.398643"
-    },
-    {
-        "entry_no": "entry-8",
-        "shorttitle": "ARW",
-        "fulltitle": "Austrian Robotics Workshop",
-        "date": "March 01, 2015",
-        "location": "46.617199,14.267280"
-    },
-    {
-        "entry_no": "entry-9",
         "shorttitle": "ECMR",
         "fulltitle": "European Conference on Mobile Robots",
         "date": "4 May 2015 23:59",
         "location": "53.228500,-0.547900"
     },
     {
-        "entry_no": "entry-10",
+        "entry_no": "entry-6",
         "shorttitle": "ICSR",
         "fulltitle": "International Conference on Social Robotics",
         "date": "17 June 2015",
         "location": "48.856930,2.341200"
     },
     {
-        "entry_no": "entry-11",
-        "shorttitle": "ISRR",
-        "fulltitle": "International Symposium on Robotics Research",
-        "date": "April 27, 2015 23:59",
-        "location": "44.268970,9.391764"
+        "entry_no": "entry-7",
+        "shorttitle": "RO-MAN",
+        "fulltitle": "Robot and Human Interactive Communication",
+        "date": "2015-02-23T23:59:59.000-08:00",
+        "location": "34.666210, 135.212994"
     },
     {
-        "entry_no": "entry-12",
+        "entry_no": "entry-8",
+        "shorttitle": "ICAR",
+        "fulltitle": "International Conference on Advanced Robotics",
+        "date": "February 15, 2015 PST",
+        "location": "41.024700,28.959591"
+    },
+    {
+        "entry_no": "entry-9",
+        "shorttitle": "FSR",
+        "fulltitle": "Field and Service Robotics",
+        "date": "13 Feb 2015, 11:59 PM EST",
+        "location": "43.667751,-79.398643"
+    },
+    {
+        "entry_no": "entry-10",
         "shorttitle": "ARSO",
         "fulltitle": "International Workshop on Advanced Robotics and its Social Impacts",
         "date": "March 31, 2015, 23:59",
         "location": "45.785189, 4.855162"
     },
     {
-        "entry_no": "entry-13",
+        "entry_no": "entry-11",
         "shorttitle": "ICINCO",
         "fulltitle": "International Conference on Informatics in Control, Automation and Robotics",
         "date": "March 3, 2015, 23:59",
         "location": "48.077743, 7.369761"
     },
     {
-        "entry_no": "entry-14",
+        "entry_no": "entry-12",
+        "shorttitle": "ISRR",
+        "fulltitle": "International Symposium on Robotics Research",
+        "date": "April 27, 2015 23:59",
+        "location": "44.268970,9.391764"
+    },
+    {
+        "entry_no": "entry-13",
         "shorttitle": "HAI",
         "fulltitle": "International Conference on Human-Agenet Interaction",
         "date": "May 15, 2015, 23:59",
         "location": "5.891390,128.610600"
     },
     {
-        "entry_no": "entry-15",
+        "entry_no": "entry-14",
         "shorttitle": "ICIA",
         "fulltitle": "International Conference on Information and Automation",
         "date": "May 10, 2015, 23:59",
         "location": "26.874730,100.234900"
     },
     {
+        "entry_no": "entry-15",
+        "shorttitle": "ICAPS",
+        "fulltitle": "International Conference on Automated Planning and Scheduling",
+        "date": "Nov 18, 2015, 23:59",
+        "location": "51.510635, -0.116872"
+    },
+    {
         "entry_no": "entry-16",
-        "shorttitle": "LfHRC",
-        "fulltitle": "Workshop on Learning for Human-Robot Collaboration (RO-MAN)",
-        "date": "May 22, 2015, 23:59",
-        "location": "34.666210, 135.212994"
+        "shorttitle": "HFR",
+        "fulltitle": "International Workshop on Human-Friendly Robotics",
+        "date": "September 1, 2015, 23:59",
+        "location": "48.265174, 11.673269"
     },
     {
         "entry_no": "entry-17",
-        "shorttitle": "Social HRI Workshop",
-        "fulltitle": "Social HRI: Overcoming Barruers Through Appearance, Behavior and Context-Based Design (RO-MAN)",
-        "date": "June 15, 2015, 23:59",
-        "location": "34.666210, 135.212994"
+        "shorttitle": "RLDM",
+        "fulltitle": "The Multi-disciplinary Conference on Reinforcement Learning and Decision Making",
+        "date": "13 Feb 2015, 11:59 PM EST",
+        "location": "53.522725, -113.520265"
     },
     {
         "entry_no": "entry-18",
-        "shorttitle": "MLIS",
-        "fulltitle": "Machine Learning for Interactive Systems (ICML-WS)",
-        "date": "May 1, 2015, 23:59",
-        "location": "50.631531,3.079211"
+        "shorttitle": "ISICS",
+        "fulltitle": "International Symposium on Intelligent Computing Systems",
+        "date": "October 12, 2015, 23:59",
+        "location": "18.995199,-98.209824"
     },
     {
         "entry_no": "entry-19",
-        "shorttitle": "PPNIV",
-        "fulltitle": "7th Workshop on Planning, Perception and Navigation for Intelligent Vehicles (IROS-WS)",
-        "date": "July 1, 2015, 23:59",
-        "location": "53.560660, 9.988360"
-    },
-    {
-        "entry_no": "entry-20",
         "shorttitle": "LfD",
         "fulltitle": "Learning from Demonstration: Inverse Optimal Control, Reinforcement Learning, and Lifelong Learning (RSS-WS)",
         "date": "June 5, 2015, 23:59",
         "location": "41.889538,12.503868"
     },
     {
+        "entry_no": "entry-20",
+        "shorttitle": "HRI Pioneers Workshop",
+        "fulltitle": "Human-Robot Interaction Pioneers Workshop",
+        "date": "November 20, 2015, 23:59",
+        "location": "-43.526390,172.612396"
+    },
+    {
         "entry_no": "entry-21",
+        "shorttitle": "MLSR (ICRA WS)",
+        "fulltitle": "Workshop on Machine Learning for Social Robotics",
+        "date": "March 20, 2015, 23:59 PST",
+        "location": "47.611416, -122.331548"
+    },
+    {
+        "entry_no": "entry-22",
+        "shorttitle": "PPNIV",
+        "fulltitle": "7th Workshop on Planning, Perception and Navigation for Intelligent Vehicles (IROS-WS)",
+        "date": "July 1, 2015, 23:59",
+        "location": "53.560660, 9.988360"
+    },
+    {
+        "entry_no": "entry-23",
         "shorttitle": "MLPC",
         "fulltitle": "Machine Learning in Planning and Control of Robot Motion Workshop (IROS-WS)",
         "date": "July 10, 2015, 23:59",
         "location": "53.560660, 9.988360"
     },
     {
-        "entry_no": "entry-22",
-        "shorttitle": "ARSO (Late Breaking Results)",
-        "fulltitle": "International Workshop on Advanced Robotics and its Social Impacts - Late Breaking Results",
-        "date": "June 7, 2015, 23:59",
-        "location": "45.785189, 4.855162"
-    },
-    {
-        "entry_no": "entry-23",
-        "shorttitle": "HRI",
-        "fulltitle": "Human-Robot Interaction",
-        "date": "October 2, 2015, 23:59",
-        "location": "-43.526390,172.612396"
-    },
-    {
         "entry_no": "entry-24",
-        "shorttitle": "ICRA",
-        "fulltitle": "International Conference on Robotics and Automation",
-        "date": "September 15, 2015, 23:59",
-        "location": "59.329922,18.056480"
+        "shorttitle": "TSE-HRI",
+        "fulltitle": "Towards Standarized Experiments in Human Robot Interactions (IROS-WS)",
+        "date": "August 24, 2015, 23:59",
+        "location": "53.561881,9.985811"
     },
     {
         "entry_no": "entry-25",
@@ -176,51 +176,37 @@
     },
     {
         "entry_no": "entry-26",
-        "shorttitle": "ISICS",
-        "fulltitle": "International Symposium on Intelligent Computing Systems",
-        "date": "October 12, 2015, 23:59",
-        "location": "18.995199,-98.209824"
+        "shorttitle": "LfHRC",
+        "fulltitle": "Workshop on Learning for Human-Robot Collaboration (RO-MAN)",
+        "date": "May 22, 2015, 23:59",
+        "location": "34.666210, 135.212994"
     },
     {
         "entry_no": "entry-27",
-        "shorttitle": "HFR",
-        "fulltitle": "International Workshop on Human-Friendly Robotics",
-        "date": "September 1, 2015, 23:59",
-        "location": "48.265174, 11.673269"
+        "shorttitle": "Social HRI Workshop",
+        "fulltitle": "Social HRI: Overcoming Barruers Through Appearance, Behavior and Context-Based Design (RO-MAN)",
+        "date": "June 15, 2015, 23:59",
+        "location": "34.666210, 135.212994"
     },
     {
         "entry_no": "entry-28",
-        "shorttitle": "TSE-HRI",
-        "fulltitle": "Towards Standarized Experiments in Human Robot Interactions (IROS-WS)",
-        "date": "August 24, 2015, 23:59",
-        "location": "53.561881,9.985811"
+        "shorttitle": "MLIS",
+        "fulltitle": "Machine Learning for Interactive Systems (ICML-WS)",
+        "date": "May 1, 2015, 23:59",
+        "location": "50.631531,3.079211"
     },
     {
         "entry_no": "entry-29",
-        "shorttitle": "ICAPS",
-        "fulltitle": "International Conference on Automated Planning and Scheduling",
-        "date": "Nov 18, 2015, 23:59",
-        "location": "51.510635, -0.116872"
+        "shorttitle": "ARSO (Late Breaking Results)",
+        "fulltitle": "International Workshop on Advanced Robotics and its Social Impacts - Late Breaking Results",
+        "date": "June 7, 2015, 23:59",
+        "location": "45.785189, 4.855162"
     },
     {
         "entry_no": "entry-30",
-        "shorttitle": "ICINCO",
-        "fulltitle": "International Conference on Informatics in Control, Automation and Robotics",
-        "date": "Mar 8, 2016, 23:59",
-        "location": "38.744270,-9.131838"
-    },
-    {
-        "entry_no": "entry-31",
-        "shorttitle": "RO-MAN",
-        "fulltitle": "International Symposium on Robot and Human Interactive Communication",
-        "date": "Feb 15, 2016, 23:59",
-        "location": "40.807540,-73.962570"
-    },
-    {
-        "entry_no": "entry-32",
-        "shorttitle": "IROS",
-        "fulltitle": "International Conference on Intelligent Robots and Systems",
-        "date": "March 1, 2016, 23:59",
-        "location": "36.37618, 127.390076"
+        "shorttitle": "ARW",
+        "fulltitle": "Austrian Robotics Workshop",
+        "date": "March 01, 2015",
+        "location": "46.617199,14.267280"
     }
 ]
