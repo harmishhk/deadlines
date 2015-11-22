@@ -197,14 +197,21 @@
     },
     {
         "entry_no": "entry-29",
-        "shorttitle": "HRI (Late Breaking Results)",
+        "shorttitle": "HRI - LBR",
         "fulltitle": "Human-Robot Interaction - Late Breaking Results",
         "date": "December 7, 2015, 23:59",
         "location": "-43.526390,172.612396"
     },
     {
         "entry_no": "entry-30",
-        "shorttitle": "ARSO (Late Breaking Results)",
+        "shorttitle": "RO-MAN - IS",
+        "fulltitle": "Robot-Human Interactive Communication - Interactive Sessions",
+        "date": "May 22, 2016, 23:59",
+        "location": "40.809685, -73.960022"
+    },
+    {
+        "entry_no": "entry-31",
+        "shorttitle": "ARSO - LBR",
         "fulltitle": "International Workshop on Advanced Robotics and its Social Impacts - Late Breaking Results",
         "date": "June 7, 2015, 23:59",
         "location": "45.785189, 4.855162"
