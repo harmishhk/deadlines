@@ -66,6 +66,12 @@
         "location": "38.744473, -9.160925"
     },
     {
+        "shorttitle": "ISER",
+        "fulltitle": "International Symposium on Experimental Robotics",
+        "date": "March 31, 2016",
+        "location": "35.658512, 139.733444"
+    },
+    {
         "shorttitle": "ISRR",
         "fulltitle": "International Symposium on Robotics Research",
         "date": "April 27, 2015 23:59",
@@ -118,6 +124,12 @@
         "fulltitle": "International Workshop on the Algorithmic Foundations of Robotics",
         "date": "June 15, 2016, 23:59 PST",
         "location": "37.801472, -122.397781"
+    },
+    {
+        "shorttitle": "ISyCoR",
+        "fulltitle": "International Workshop on Intelligent Systems for Collaborative Robotics",
+        "date": "April 15, 2016",
+        "location": "49.829063, 18.282207"
     },
     {
         "shorttitle": "ISICS",
