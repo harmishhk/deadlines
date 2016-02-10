@@ -1,23 +1,20 @@
 [
     {
-        "entry_no": "entry-1",
-        "shorttitle": "RSS",
-        "fulltitle": "Robotics Science and Systems",
-        "date": "January 22, 2015, 23:59 PST",
-        "location": "41.903330,12.515830"
+        "shorttitle": "SHORT-TITLE-1",
+        "fulltitle": "Full Title 1",
+        "date": "January 1, 2025, 23:59 PST",
+        "location": "48.858288, 2.294484"
     },
     {
-        "entry_no": "entry-2",
-        "shorttitle": "IROS",
-        "fulltitle": "Intelligent Robots and Systems",
-        "date": "March 2, 2015 PST",
-        "location": "53.561881,9.985811"
+        "shorttitle": "SHORT-TITLE-2",
+        "fulltitle": "Full Title 2",
+        "date": "March 10, 2035 PST",
+        "location": "40.755219, -73.983475"
     },
     {
-        "entry_no": "entry-3",
-        "shorttitle": "RO-MAN",
-        "fulltitle": "Robot and Human Interactive Communication",
-        "date": "2015-02-16T23:59:59.000-08:00",
-        "location": "34.666210, 135.212994"
+        "shorttitle": "SHORT-TITLE-2",
+        "fulltitle": "Full Title 1",
+        "date": "2045-04-16T23:59:59.000-08:00",
+        "location": "22.29693, 70.79792"
     }
 ]

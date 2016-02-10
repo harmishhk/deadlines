@@ -88,7 +88,7 @@ $(document).ready(function () {
         // get clicket entry
         var entry = null;
         for (var i = 0; i < entries.length; i++) {
-            if (entries[i].entry_no == $(this).attr('id')) {
+            if (entries[i].shorttitle == $(this).attr('id')) {
                 entry = entries[i];
                 break;
             }
