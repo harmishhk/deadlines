@@ -8,8 +8,8 @@
     {
         "shorttitle": "HRI",
         "fulltitle": "Human-Robot Interaction",
-        "date": "October 5, 2015, 23:59",
-        "location": "-43.526390,172.612396"
+        "date": "October 3, 2016, 23:59",
+        "location": "48.20832, 16.37754"
     },
     {
         "shorttitle": "ICRA",
@@ -32,8 +32,8 @@
     {
         "shorttitle": "ICSR",
         "fulltitle": "International Conference on Social Robotics",
-        "date": "17 June 2015",
-        "location": "48.856930,2.341200"
+        "date": "June 7, 2016",
+        "location": "39.046242, -94.586472"
     },
     {
         "shorttitle": "RO-MAN",
@@ -56,8 +56,8 @@
     {
         "shorttitle": "ARSO",
         "fulltitle": "International Workshop on Advanced Robotics and its Social Impacts",
-        "date": "March 31, 2015, 23:59",
-        "location": "45.785189, 4.855162"
+        "date": "April 9, 2016, 23:59",
+        "location": "31.162182, 121.342689"
     },
     {
         "shorttitle": "ICINCO",
@@ -156,6 +156,12 @@
         "location": "47.611416, -122.331548"
     },
     {
+        "shorttitle": "HRI-EPI (ICRA WS)",
+        "fulltitle": "Human-Robot Interfaces for Enhanced Physical Interactions",
+        "date": "March 20, 2016, 23:59 PST",
+        "location": "59.329922, 18.056480"
+    },
+    {
         "shorttitle": "PPNIV",
         "fulltitle": "7th Workshop on Planning, Perception and Navigation for Intelligent Vehicles (IROS-WS)",
         "date": "July 1, 2015, 23:59",
@@ -180,6 +186,12 @@
         "location": "53.561881,9.985811"
     },
     {
+        "shorttitle": "Real-World HRI (RO-MAN WS)",
+        "fulltitle": "Workshop The Challenges of Human-Robot Interaction in Real-World Contexts (RO-MAN)",
+        "date": "May 22, 2016, 23:59",
+        "location": "40.809685, -73.960022"
+    },
+    {
         "shorttitle": "LfHRC",
         "fulltitle": "Workshop on Learning for Human-Robot Collaboration (RO-MAN)",
         "date": "May 22, 2015, 23:59",
@@ -200,8 +212,8 @@
     {
         "shorttitle": "HRI - LBR",
         "fulltitle": "Human-Robot Interaction - Late Breaking Results",
-        "date": "December 7, 2015, 23:59",
-        "location": "-43.526390,172.612396"
+        "date": "December 5, 2016, 23:59",
+        "location": "48.20832, 16.37754"
     },
     {
         "shorttitle": "RO-MAN - IS",
