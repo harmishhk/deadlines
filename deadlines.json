@@ -187,8 +187,14 @@
     },
     {
         "shorttitle": "Real-World HRI (RO-MAN WS)",
-        "fulltitle": "Workshop The Challenges of Human-Robot Interaction in Real-World Contexts (RO-MAN)",
+        "fulltitle": "The Challenges of Human-Robot Interaction in Real-World Contexts",
         "date": "May 22, 2016, 23:59",
+        "location": "40.809685, -73.960022"
+    },
+    {
+        "shorttitle": "BAILAR (RO-MAN WS)",
+        "fulltitle": "Behavior Adaptation, Interaction and Learning for Assistive Robotics",
+        "date": "June 01, 2016, 23:59",
         "location": "40.809685, -73.960022"
     },
     {
