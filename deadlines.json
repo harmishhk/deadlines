@@ -80,7 +80,7 @@
     {
         "shorttitle": "HAI",
         "fulltitle": "International Conference on Human-Agenet Interaction",
-        "date": "April 30, 2016, 23:59",
+        "date": "May 10, 2016, 23:59",
         "location": "1.321637, 103.816689"
     },
     {
@@ -138,6 +138,12 @@
         "location": "18.995199,-98.209824"
     },
     {
+        "shorttitle": "HRColla",
+        "fulltitle": "Planning for Human-Robot Interaction: Shared Autonomy and Collaborative Robotics (RSS-WS)",
+        "date": "May 10, 2016, 23:59",
+        "location": "42.280575, -83.73848"
+    },
+    {
         "shorttitle": "LfD",
         "fulltitle": "Learning from Demonstration: Inverse Optimal Control, Reinforcement Learning, and Lifelong Learning (RSS-WS)",
         "date": "June 5, 2015, 23:59",
@@ -163,9 +169,9 @@
     },
     {
         "shorttitle": "PPNIV",
-        "fulltitle": "7th Workshop on Planning, Perception and Navigation for Intelligent Vehicles (IROS-WS)",
-        "date": "July 1, 2015, 23:59",
-        "location": "53.560660, 9.988360"
+        "fulltitle": "8th Workshop on Planning, Perception and Navigation for Intelligent Vehicles (ITSC-WS)",
+        "date": "July 4, 2016, 23:59",
+        "location": "-23.010983, -43.322052"
     },
     {
         "shorttitle": "MLPC",
@@ -188,13 +194,31 @@
     {
         "shorttitle": "Real-World HRI (RO-MAN WS)",
         "fulltitle": "The Challenges of Human-Robot Interaction in Real-World Contexts",
-        "date": "May 22, 2016, 23:59",
+        "date": "June 5, 2016, 23:59",
         "location": "40.809685, -73.960022"
     },
     {
         "shorttitle": "BAILAR (RO-MAN WS)",
         "fulltitle": "Behavior Adaptation, Interaction and Learning for Assistive Robotics",
         "date": "June 01, 2016, 23:59",
+        "location": "40.809685, -73.960022"
+    },
+    {
+        "shorttitle": "Groups-HRI (RO-MAN WS)",
+        "fulltitle": "Groups in Human-Robot Interaction",
+        "date": "April 29, 2016, 23:59",
+        "location": "40.809685, -73.960022"
+    },
+    {
+        "shorttitle": "PubRob (RO-MAN WS)",
+        "fulltitle": "Public Space Human-Robot Interaction",
+        "date": "July 1, 2016, 23:59",
+        "location": "40.809685, -73.960022"
+    },
+    {
+        "shorttitle": "Intensions in HRI",
+        "fulltitle": "Communicating Intentions in Human-Robot Interaction (RO-MAN)",
+        "date": "June 24, 2016, 23:59 PST",
         "location": "40.809685, -73.960022"
     },
     {
