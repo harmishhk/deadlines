@@ -14,14 +14,14 @@
     {
         "shorttitle": "ICRA",
         "fulltitle": "International Conference on Robotics and Automation",
-        "date": "September 15, 2015, 23:59",
-        "location": "59.329922,18.056480"
+        "date": "September 10, 2016, 23:59",
+        "location": "1.281680, 103.858757"
     },
     {
         "shorttitle": "IROS",
-        "fulltitle": "Intelligent Robots and Systems",
+        "fulltitle": "International Conference on Intelligent Robots and Systems",
         "date": "March 1, 2016, 23:59 PST",
-        "location": "53.561881,9.985811"
+        "location": "36.374985, 127.391685"
     },
     {
         "shorttitle": "ECMR",
@@ -32,7 +32,7 @@
     {
         "shorttitle": "ICSR",
         "fulltitle": "International Conference on Social Robotics",
-        "date": "June 7, 2016",
+        "date": "July 10, 2016",
         "location": "39.046242, -94.586472"
     },
     {
@@ -46,6 +46,12 @@
         "fulltitle": "International Conference on Advanced Robotics",
         "date": "February 15, 2015 PST",
         "location": "41.024700,28.959591"
+    },
+    {
+        "shorttitle": "ICRC",
+        "fulltitle": "First IEEE International Conference on Robotic Computing",
+        "date": "October 15, 2016 PST",
+        "location": "24.046000, 120.687000"
     },
     {
         "shorttitle": "FSR",
@@ -122,7 +128,7 @@
     {
         "shorttitle": "WAFR",
         "fulltitle": "International Workshop on the Algorithmic Foundations of Robotics",
-        "date": "June 15, 2016, 23:59 PST",
+        "date": "July 13, 2016, 23:59 PST",
         "location": "37.801472, -122.397781"
     },
     {
@@ -174,22 +180,10 @@
         "location": "-23.010983, -43.322052"
     },
     {
-        "shorttitle": "MLPC",
-        "fulltitle": "Machine Learning in Planning and Control of Robot Motion Workshop (IROS-WS)",
-        "date": "July 10, 2015, 23:59",
-        "location": "53.560660, 9.988360"
-    },
-    {
-        "shorttitle": "TSE-HRI",
-        "fulltitle": "Towards Standarized Experiments in Human Robot Interactions (IROS-WS)",
-        "date": "August 24, 2015, 23:59",
-        "location": "53.561881,9.985811"
-    },
-    {
-        "shorttitle": "LOA (IROS WS)",
-        "fulltitle": "Learning Object Affordances: a fundamental step to allow prediction, planning and tool use?",
-        "date": "July 31, 2015, 23:59",
-        "location": "53.561881,9.985811"
+        "shorttitle": "HRC (IROS-WS)",
+        "fulltitle": "Workshop on Human-Robot Collaboration: Towards Co-Adaptive Learning Through Semi-Autonomy and Shared Control",
+        "date": "August 1, 2016, 23:59",
+        "location": "36.374985, 127.391685"
     },
     {
         "shorttitle": "Real-World HRI (RO-MAN WS)",
@@ -240,6 +234,12 @@
         "location": "50.631531,3.079211"
     },
     {
+        "shorttitle": "AWRL",
+        "fulltitle": "Asian Workshop on Reinforcement Learning (ACML-WS)",
+        "date": "August 31, 2016, 23:59",
+        "location": "-37.786940, 175.313900"
+    },
+    {
         "shorttitle": "HRI - LBR",
         "fulltitle": "Human-Robot Interaction - Late Breaking Results",
         "date": "December 5, 2016, 23:59",
@@ -268,5 +268,17 @@
         "fulltitle": "Fifth International Symposium on New Frontiers in Human-Robot Interaction (AISB)",
         "date": "Jan 11, 2015",
         "location": "53.382221, -1.488831"
+    },
+    {
+        "shorttitle": "AI-HRI",
+        "fulltitle": "The AAAI Fall Symposium on Artificial Intelligence for Human-Robot Interaction",
+        "date": "July 15, 2015",
+        "location": "38.880990, -77.072590"
+    },
+    {
+        "shorttitle": "AURO",
+        "fulltitle": "Autonomous Robots Journal Special Issue: Learning for Human-Robot Collaboration",
+        "date": "October 1, 2016",
+        "location": "0.0,0.0"
     }
 ]
