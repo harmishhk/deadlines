@@ -14,14 +14,14 @@
     {
         "shorttitle": "ICRA",
         "fulltitle": "International Conference on Robotics and Automation",
-        "date": "September 10, 2016, 23:59",
+        "date": "September 15, 2016, 23:59",
         "location": "1.281680, 103.858757"
     },
     {
         "shorttitle": "IROS",
         "fulltitle": "International Conference on Intelligent Robots and Systems",
-        "date": "March 1, 2016, 23:59 PST",
-        "location": "36.374985, 127.391685"
+        "date": "March 1, 2017, 23:59 PST",
+        "location": "49,289170, -123,113800"
     },
     {
         "shorttitle": "ECMR",
@@ -38,8 +38,8 @@
     {
         "shorttitle": "RO-MAN",
         "fulltitle": "Robot and Human Interactive Communication",
-        "date": "March 7, 2016 PST",
-        "location": "40.809685, -73.960022"
+        "date": "Feb 19, 2017 PST",
+        "location": "38,703884, -9,186925"
     },
     {
         "shorttitle": "ICAR",
@@ -62,8 +62,8 @@
     {
         "shorttitle": "ARSO",
         "fulltitle": "International Workshop on Advanced Robotics and its Social Impacts",
-        "date": "April 9, 2016, 23:59",
-        "location": "31.162182, 121.342689"
+        "date": "October 7, 2016, 23:59 PST",
+        "location": "30.281600, -97.740970"
     },
     {
         "shorttitle": "ICINCO",
@@ -130,6 +130,12 @@
         "fulltitle": "International Workshop on the Algorithmic Foundations of Robotics",
         "date": "July 13, 2016, 23:59 PST",
         "location": "37.801472, -122.397781"
+    },
+    {
+        "shorttitle": "SIMPAR",
+        "fulltitle": "International Conference on Simulation, Modeling, and Programming for Autonomous Robots",
+        "date": "Aug 5, 2016, 23:59 PST",
+        "location": "37.784863, -122.408989"
     },
     {
         "shorttitle": "ISyCoR",
@@ -206,7 +212,7 @@
     {
         "shorttitle": "PubRob (RO-MAN WS)",
         "fulltitle": "Public Space Human-Robot Interaction",
-        "date": "July 1, 2016, 23:59",
+        "date": "July 15, 2016, 23:59",
         "location": "40.809685, -73.960022"
     },
     {
@@ -272,7 +278,7 @@
     {
         "shorttitle": "AI-HRI",
         "fulltitle": "The AAAI Fall Symposium on Artificial Intelligence for Human-Robot Interaction",
-        "date": "July 15, 2015",
+        "date": "July 22, 2016",
         "location": "38.880990, -77.072590"
     },
     {
