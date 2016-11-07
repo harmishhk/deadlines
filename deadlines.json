@@ -2,8 +2,8 @@
     {
         "shorttitle": "RSS",
         "fulltitle": "Robotics Science and Systems",
-        "date": "January 28, 2016, 23:59 PST",
-        "location": "42.280575, -83.73848"
+        "date": "January 30, 2017, 23:59",
+        "location": "42.358120, -71.095070"
     },
     {
         "shorttitle": "HRI",
@@ -40,6 +40,12 @@
         "fulltitle": "Robot and Human Interactive Communication",
         "date": "Feb 19, 2017 PST",
         "location": "38,703884, -9,186925"
+    },
+    {
+        "shorttitle": "AIR",
+        "fulltitle": "Advances in Robotics",
+        "date": "Feb 1, 2017 00:00 +0530",
+        "location": "28.544045, 77.191323"
     },
     {
         "shorttitle": "ICAR",
