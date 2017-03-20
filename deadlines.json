@@ -26,8 +26,8 @@
     {
         "shorttitle": "ECMR",
         "fulltitle": "European Conference on Mobile Robots",
-        "date": "4 May 2015 23:59",
-        "location": "53.228500,-0.547900"
+        "date": "2 May 2017 23:59",
+        "location": "48.834250, 2.283331"
     },
     {
         "shorttitle": "ICSR",
@@ -38,7 +38,7 @@
     {
         "shorttitle": "RO-MAN",
         "fulltitle": "Robot and Human Interactive Communication",
-        "date": "Feb 19, 2017 PST",
+        "date": "Mar 26, 2017 PST",
         "location": "38,703884, -9,186925"
     },
     {
@@ -154,6 +154,12 @@
         "fulltitle": "International Symposium on Intelligent Computing Systems",
         "date": "October 12, 2015, 23:59",
         "location": "18.995199,-98.209824"
+    },
+    {
+        "shorttitle": "ETFA",
+        "fulltitle": "Emerging Technologies And Factory Automation",
+        "date": "April 9, 2017, 23:59",
+        "location": "34.713303, 33.162403"
     },
     {
         "shorttitle": "HRColla",
@@ -290,7 +296,7 @@
     {
         "shorttitle": "AURO",
         "fulltitle": "Autonomous Robots Journal Special Issue: Learning for Human-Robot Collaboration",
-        "date": "October 1, 2016",
+        "date": "December 31, 2016",
         "location": "0.0,0.0"
     }
 ]
