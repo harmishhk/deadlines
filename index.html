@@ -23,8 +23,30 @@
 
     <!-- loading fonts -->
     <script src="//use.edgefonts.net/lato.js"></script>
+
+    <!-- jQuery (necessary for bootstrap's js plugins) -->
+    <script src="js/jquery.min.js"></script>
+
+    <!-- jquery plugin for countdown timers -->
+    <script src="js/jquery.countdown.min.js"></script>
+
+    <!-- compiled and minified bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- compiled and minifies bootstrap plugins -->
+
+    <!-- bing maps ajax api -->
+    <script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol'></script>
+
+    <!-- moment for date formatting -->
+    <script src="js/moment-with-locales.min.js"></script>
+
+    <!-- jsrender for rendring json objects -->
+    <script src="js/jsrender.min.js"></script>
+
+    <!-- custom js -->
+    <script src="js/main.js"></script>
 </head>
-<body>
+<body onload="setup()">
     <section id="entries-view" style="display:none">
 
         <span style="text-align: center">
@@ -73,27 +95,6 @@
         <div id="details" class="container detail"></div>
     </section>
 
-    <!-- loading the scripts in the end -->
-
-    <!-- jQuery (necessary for bootstrap's js plugins) -->
-    <script src="js/jquery.min.js"></script>
-
-    <!-- jquery plugin for countdown timers -->
-    <script src="js/jquery.countdown.min.js"></script>
-
-    <!-- compiled and minified bootstrap js -->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- compiled and minifies bootstrap plugins -->
-
-    <!-- bing maps ajax api -->
-    <script type="text/javascript" src="http://ecn.dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=7.0"></script>
-
-    <!-- moment for date formatting -->
-    <script src="js/moment-with-locales.min.js"></script>
-
-    <!-- jsrender for rendring json objects -->
-    <script src="js/jsrender.min.js"></script>
-
     <!--  define the template for each entry in list view page -->
     <script id="entry-tmpl" type="text/x-jsrender">
     <div id="{{:shorttitle}}" class="row row-sm-height entry">
@@ -120,8 +121,5 @@
     <div class="detail-date">{{format:date type="view"}}</div>
     <div id="detail-timer"></div>
     </script>
-
-    <!-- custom js -->
-    <script src="js/main.js"></script>
 </body>
 </html>

@@ -1,4 +1,4 @@
-$(document).ready(function () {
+function setup() {
 
     // load json data using a blocking call
     var entries = (function () {
@@ -77,15 +77,13 @@ $(document).ready(function () {
         showDashboard: false,
         showScalebar: false,
         mapTypeId: Microsoft.Maps.MapTypeId.aerial,
-        width: $(window).width(),
-        height: $(window).height(),
         zoom: 13
     }
-    var map = new Microsoft.Maps.Map(document.getElementById("map"), mapOptions);
+    var map = new Microsoft.Maps.Map('#map', mapOptions);
 
-    // trasit to detailed view when any entry is clicked
+    // transit to detailed view when any entry is clicked
     $(".entry").click(function(event){
-        // get clicket entry
+        // get clicked entry
         var entry = null;
         for (var i = 0; i < entries.length; i++) {
             if (entries[i].shorttitle == $(this).attr('id')) {
@@ -118,8 +116,7 @@ $(document).ready(function () {
         // update center of the map from location specified in entry, if given
         if('location' in entry) {
             map.setView({
-                center: new Microsoft.Maps.Location(entry.location.split(",")[0],entry.location.split(",")[1]),
-                animate:false
+                center: new Microsoft.Maps.Location(entry.location.split(",")[0],entry.location.split(",")[1])
             });
             $('#map').show();
         }
@@ -142,13 +139,10 @@ $(document).ready(function () {
     // resize and re-center the map on window resize
     $(window).resize(function () {
         map.setView({
-            width: $(window).width(),
-            height: $(window).height(),
-            center: map.getCenter(),
-            animate:false
+            center: map.getCenter()
         });
     });
 
-    // smooth fadein effect at start
+    // smooth fade-in effect at start
     $("#entries-view").delay(200).fadeIn('slow');
-});
+}
